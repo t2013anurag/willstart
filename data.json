@@ -14,7 +14,8 @@
   },
   "companies":[
     {
-      "name":"Eatlo",
+      "name": "Eatlo",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/567426-7c77ddc9bdfcb7a199e37bb42bc9e142-thumb_jpg.jpg?buster=1427522416",
       "online_booking": 1,
       "app": 1,
       "home_delivery": 1,
@@ -37,6 +38,7 @@
     },
     {
       "name":"OrgBasket",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/1044277-54f90f5d9ff330e27398fd088dc717e2-thumb_jpg.jpg?buster=1457249471",
       "online_booking": 1,
       "app": 1,
       "home_delivery": 1,
@@ -61,6 +63,7 @@
     },
     {
       "name":"Jumbotail",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/900778-a8654eb608e3de88a7adb3fb09e264c8-thumb_jpg.jpg?buster=1467893671",
       "online_booking": 1,
       "app": 1,
       "home_delivery": 1,
@@ -83,6 +86,7 @@
     },
     {
       "name":"Juicemaker",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/902679-84bfbc6dc879000e11c6b28d4cd9fbf0-thumb_jpg.jpg?buster=1450513872",
       "online_booking": 1,
       "app": 1,
       "home_delivery": 1,
@@ -105,6 +109,7 @@
     },
     {
       "name":"Eatlandish",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/370964-28ed7b33648ba2ebd150b5bfd3c9fc54-thumb_jpg.jpg?buster=1396277869",
       "online_booking": 1,
       "app": 1,
       "home_delivery": 1,
@@ -127,6 +132,7 @@
     },
     {
       "name":"Swiggy",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/432527-787d891245ba0993ea3739443945a2c6-thumb_jpg.jpg?buster=1407524956",
       "online_booking": 1,
       "app": 1,
       "home_delivery": 1,
@@ -149,6 +155,7 @@
     },
     {
       "name":"vGulp",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/199002-07fa64dca0377a3d544d1d9a96c9cea9-thumb_jpg.jpg?buster=1413495318",
       "online_booking": 0,
       "app": 1,
       "home_delivery": 0,
@@ -171,6 +178,7 @@
     },
     {
       "name":"Eatfresh",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/864865-646063b2d82fa3c8e2e390271ced6dd3-thumb_jpg.jpg?buster=1444118813",
       "online_booking": 1,
       "app": 1,
       "home_delivery": 1,
@@ -193,6 +201,7 @@
     },
     {
       "name":"Bhukkad",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/803136-a40397b161f72c8bbb2d22b122ea300a-thumb_jpg.jpg?buster=1439963982",
       "online_booking": 1,
       "app": 1,
       "home_delivery": 1,
@@ -217,6 +226,7 @@
     },
     {
       "name":"Chai Point",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/496653-2524fbb4a70979bc7f23c718d2cff6bc-thumb_jpg.jpg?buster=1468815406",
       "online_booking": 1,
       "app": 0,
       "home_delivery": 1,
@@ -239,6 +249,7 @@
     },
     {
       "name":"Foodpanda",
+      "pic_url": "https://asia-public.foodpanda.com/assets/production/in/layout/themes/capricciosa_foodpanda/images/en/logo.png?v=1459438060",
       "online_booking": 1,
       "app": 1,
       "home_delivery": 1,
@@ -261,6 +272,7 @@
     },
     {
       "name":"Faasos",
+      "pic_url": "https://www.faasos.com/images/Faasos-logo.png",
       "online_booking": 1,
       "app": 1,
       "home_delivery": 1,
@@ -283,6 +295,7 @@
     },
     {
       "name":"Zomato",
+      "pic_url": "https://b.zmtcdn.com/images/logo/zomato_white.svg",
       "online_booking": 1,
       "app": 1,
       "home_delivery": 1,
@@ -305,6 +318,7 @@
     },
     {
       "name":"Grofers",
+      "pic_url": "https://grofers.com/images/grofers-logo.png",
       "online_booking": 1,
       "app": 1,
       "home_delivery": 1,
@@ -327,6 +341,7 @@
     },
     {
       "name":"Chocozonia",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/527681-6d4f19da2b544ba937a6c723051d7822-thumb_jpg.jpg?buster=1415219164",
       "online_booking": 1,
       "app": 1,
       "home_delivery": 1,
@@ -350,6 +365,7 @@
     },
     {
       "name":"Mithacafe",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/667735-94ddbad921e38a9004514ec5d12e530e-thumb_jpg.jpg?buster=1428960998",
       "online_booking": 1,
       "app": 1,
       "home_delivery": 1,
@@ -372,6 +388,7 @@
     },
     {
       "name":"Drink King",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/699274-369f23bf996984f52a1c9d5240fce59b-thumb_jpg.jpg?buster=1443011504",
       "online_booking": 1,
       "app": 1,
       "home_delivery": 1,
@@ -394,6 +411,7 @@
     },
     {
       "name":"Rossiteck",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/233537-3ed0a4015749ea4f8ad87034fa698546-thumb_jpg.jpg?buster=1373626432",
       "online_booking": 1,
       "app": 1,
       "home_delivery": 0,
@@ -416,6 +434,7 @@
     },
     {
       "name":"EzySupply",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/1439360-9e026193e05471dd8c467e5ac3e7f26d-thumb_jpg.jpg?buster=1471341781",
       "online_booking": 0,
       "app": 1,
       "home_delivery": 0,
@@ -438,6 +457,7 @@
     },
     {
       "name":"Momscurry",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/1090335-8fbc8d9ba6a71c424c1e3c149f007c6e-thumb_jpg.jpg?buster=1460378508",
       "online_booking": 1,
       "app": 1,
       "home_delivery": 1,
@@ -460,6 +480,7 @@
     },
     {
       "name":"Box8",
+      "pic_url": "https://box8.in/images/logo.6d41ab8b.png",
       "online_booking": 1,
       "app": 1,
       "home_delivery": 1,
@@ -482,6 +503,7 @@
     },
     {
       "name":"Fitgo",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/856789-76705f128843d739eab7fada64824900-thumb_jpg.jpg?buster=1451322635",
       "online_booking": 1,
       "app": 1,
       "home_delivery": 1,
@@ -504,6 +526,7 @@
     },
     {
       "name":"Telory",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/719396-feba39ccae8887c0605b33feee37348b-thumb_jpg.jpg?buster=1433345029",
       "online_booking": 1,
       "app": 1,
       "home_delivery": 1,
@@ -526,6 +549,7 @@
     },
     {
       "name":"Latenight",
+      "pic_url": "http://www.latenight.in/catalog/view/theme/pav_styleshop/image/default/logo.png",
       "online_booking": 1,
       "app": 1,
       "home_delivery": 1,
