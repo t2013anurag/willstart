@@ -53,7 +53,7 @@ module.exports = {
 				res.status(200).json(reply)
 			}
 			else{
-				console.log(market[0]);
+				console.log(market[0].companies);
 				var options = {
 				  args: [market[0].companies, f]
 				};
