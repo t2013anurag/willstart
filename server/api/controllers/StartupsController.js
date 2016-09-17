@@ -55,9 +55,11 @@ module.exports = {
 				};
 				PythonShell.run('../python/main.py', options, function (err, results) {
 				  if (err) throw err;
+					results = results[0]
+					var recommended = results.replace(/"/g, "");
 					var reply = {
 						'status': 1,
-						'results': results[0]
+						'results': recommended
 					}
 					res.status(200).json(reply)
 				});
