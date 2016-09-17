@@ -105,7 +105,7 @@
         "provides_coupons",
         "juice_only"
       ],
-      "services_not_available" : [        
+      "services_not_available" : [
         "menu_handpicking",
         "meal_categorization",
         "restaurant_options",
@@ -160,7 +160,7 @@
         "restaurant_options",
         "home_delivery",
         "cultural_cuisine",
-        "provides_coupons"        
+        "provides_coupons"
       ],
       "services_not_available" : [
         "menu_handpicking",
@@ -182,7 +182,7 @@
       "services_available" : [
         "app",
         "provides_coupons",
-        "sells_booze"        
+        "sells_booze"
       ],
       "services_not_available" : [
         "online_booking",
@@ -214,7 +214,7 @@
         "provides_coupons",
         "home_cooked"
       ],
-      "services_not_available" : [        
+      "services_not_available" : [
         "menu_handpicking",
         "restaurant_options",
         "sells_raw_food",
@@ -233,7 +233,7 @@
     {
       "name":"Bhukkad",
       "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/803136-a40397b161f72c8bbb2d22b122ea300a-thumb_jpg.jpg?buster=1439963982",
-      "services_available" : [      
+      "services_available" : [
         "online_booking",
         "app",
         "home_delivery",
@@ -665,5 +665,383 @@
         "gift_dining"
       ]
     }
+  ]
+}
+{
+  "category": "health",
+  "worth": "100B",
+  "total_companies": "296",
+  "funding_raised": "79B",
+  "location": "Bangalore",
+  "dsc":{},
+  "companies":[
+    {
+      "name": "Healthcaremagic",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/213317-18b5bcbace8c8529b22c4f6564dc9979-medium_jpg.jpg?buster=1369739885",
+      "services_available" : [
+        "Online Prescription",
+        "Specialist",
+        "Real Time Suggestions",
+        "Q & A"
+      ],
+      "services_not_available" : [
+        "Risk Analysis and Report",
+        "Book Appointments",
+        "CRM",
+        "Fitness Tracker",
+        "Coaches",
+        "Meal Tracker",
+        "Home Delivery",
+        "Sells Medicines",
+        "Sexual Tests",
+        "Tailored Meals",
+        "Beauty Tips and Wellness"
+      ]
+    },
+    {
+      "name": "Health Vectors",
+      "pic_url": "http://www.360hvpl.com/images/logo.png",
+      "services_available" : [
+        "Risk Analysis and Report"
+      ],
+      "services_not_available" : [
+        "Online Prescription",
+        "Specialist",
+        "Real Time Suggestions",
+        "Book Appointments"
+        "Q & A",
+        "CRM",
+        "Fitness Tracker",
+        "Coaches",
+        "Meal Tracker",
+        "Home Delivery",
+        "Sells Medicines",
+        "Sexual Tests",
+        "Tailored Meals",
+        "Beauty Tips and Wellness"
+      ]
+    },
+    {
+      "name": "Quickwell",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/188603-5333c9674f46a0747a60a2f1b02e9bbc-thumb_jpg.jpg?buster=1364452951",
+      "services_available" : [
+        "Real Time Suggestions",
+        "Book Appointments"
+        "Online Prescription",
+        "Specialist",
+        "Q & A"
+      ],
+      "services_not_available" : [
+        "Risk Analysis and Report",
+        "CRM",
+        "Fitness Tracker",
+        "Coaches",
+        "Meal Tracker",
+        "Home Delivery",
+        "Sells Medicines",
+        "Sexual Tests",
+        "Tailored Meals",
+        "Beauty Tips and Wellness"
+      ]
+    },
+    {
+      "name": "Docengage",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/144063-aca69fb90e8a343412414959f4a581ac-thumb_jpg.jpg?buster=1422592528",
+      "services_available" : [
+        "Real Time Suggestions",
+        "Book Appointments",
+        "Online Prescription",
+        "Specialist",
+        "Q & A",
+        "CRM"
+      ],
+      "services_not_available" : [
+        "Risk Analysis and Report",
+        "Fitness Tracker",
+        "Coaches",
+        "Meal Tracker",
+        "Home Delivery",
+        "Sells Medicines",
+        "Sexual Tests",
+        "Tailored Meals",
+        "Beauty Tips and Wellness"
+      ]
+    },
+    {
+      "name": "Healthifyme",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/205988-ba3538ef1d41ffdd714c04064cabe72f-thumb_jpg.jpg?buster=1417528353",
+      "services_available" : [
+        "Real Time Suggestions",
+        "Fitness Tracker",
+        "Coaches",
+        "Meal Tracker",
+        "Specialist",
+        "Q & A"
+      ],
+      "services_not_available" : [
+        "Risk Analysis and Report",
+        "Book Appointments",
+        "Online Prescription",
+        "CRM",
+        "Home Delivery",
+        "Sells Medicines",
+        "Sexual Tests",
+        "Tailored Meals",
+        "Beauty Tips and Wellness"
+      ]
+    },
+    {
+      "name": "Dataphi Labs",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/888428-20b2d0923d93e604c60663c4c73ab4a6-thumb_jpg.jpg?buster=1445762496",
+      "services_available" : [
+        "Fitness Tracker",
+        "Coaches",
+        "Meal Tracker",
+        "Risk Analysis and Report"
+      ],
+      "services_not_available" : [
+        "Specialist",
+        "Real Time Suggestions",
+        "Book Appointments",
+        "Online Prescription",
+        "Q & A",
+        "CRM",
+        "Home Delivery",
+        "Sexual Tests",
+        "Sells Medicines",
+        "Tailored Meals",
+        "Beauty Tips and Wellness"
+      ]
+    },
+    {
+      "name": "SmartRx",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/93469-f7702fc42423fc9673cd041a37e8c66f-thumb_jpg.jpg?buster=1338229978",
+      "services_available" : [
+        "Risk Analysis and Report"
+        "Real Time Suggestions",
+        "Online Prescription",
+        "CRM"
+      ],
+      "services_not_available" : [
+        "Specialist",
+        "Book Appointments",
+        "Q & A",
+        "Fitness Tracker",
+        "Coaches",
+        "Meal Tracker",
+        "Home Delivery",
+        "Sells Medicines",
+        "Sexual Tests",
+        "Tailored Meals",
+        "Beauty Tips and Wellness"
+      ]
+    },
+    {
+      "name": "Omnify",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/299702-895dcd14577628c8ea3eeec6931dbd32-medium_jpg.jpg?buster=1470383942",
+      "services_available" : [
+        "Real Time Suggestions",
+        "Online Prescription",
+        "CRM",
+        "Fitness Tracker",
+        "Coaches",
+        "Book Appointments",
+      ],
+      "services_not_available" : [
+        "Risk Analysis and Report",
+        "Meal Tracker",
+        "Specialist",
+        "Q & A",
+        "Home Delivery",
+        "Sells Medicines",
+        "Sexual Tests",
+        "Tailored Meals",
+        "Beauty Tips and Wellness"
+      ]
+    },
+    {
+      "name": "DataDab",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/508645-541f2b1764d613eb5a2528399e916633-thumb_jpg.jpg?buster=1413062792",
+      "services_available" : [
+        "CRM",
+        "Fitness Tracker",
+        "Coaches",
+        "Risk Analysis and Report",
+      ],
+      "services_not_available" : [
+        "Real Time Suggestions",
+        "Online Prescription",
+        "Book Appointments",
+        "Meal Tracker",
+        "Specialist",
+        "Q & A",
+        "Home Delivery",
+        "Sells Medicines",
+        "Sexual Tests",
+        "Tailored Meals",
+        "Beauty Tips and Wellness"
+      ]
+    },
+    {
+      "name": "Fitmonk",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/818389-998cc3dd49cb904a19a7b00725f466d3-medium_jpg.jpg?buster=1450984475",
+      "services_available" : [
+        "CRM",
+        "Fitness Tracker",
+        "Coaches",
+        "Real Time Suggestions",
+        "Online Prescription",
+        "Book Appointments",
+        "Meal Tracker",
+      ],
+      "services_not_available" : [
+        "Risk Analysis and Report",
+        "Specialist",
+        "Q & A",
+        "Home Delivery",
+        "Sells Medicines",
+        "Sexual Tests",
+        "Tailored Meals",
+        "Beauty Tips and Wellness"
+      ]
+    },
+    {
+      "name": "Myra Medicines",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/832052-c42314bc022be80d285cdc2190fdb462-thumb_jpg.jpg?buster=1441887072",
+      "services_available" : [
+        "Real Time Suggestions",
+        "Online Prescription",
+        "Book Appointments",
+        "Home Delivery",
+        "Sells Medicines"
+      ],
+      "services_not_available" : [
+        "Meal Tracker",
+        "CRM",
+        "Fitness Tracker",
+        "Coaches",
+        "Risk Analysis and Report",
+        "Specialist",
+        "Q & A",
+        "Sexual Tests",
+        "Tailored Meals",
+        "Beauty Tips and Wellness"
+      ]
+    },
+    {
+      "name": "Cupid Care",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/866357-c82641d7113660ecc9e8119fecd2c86f-medium_jpg.jpg?buster=1444194993",
+      "services_available" : [
+        "Real Time Suggestions",
+        "Online Prescription",
+        "Book Appointments",
+        "Home Delivery",
+        "Sells Medicines",
+        "Sexual Tests"
+      ],
+      "services_not_available" : [
+        "Meal Tracker",
+        "CRM",
+        "Fitness Tracker",
+        "Coaches",
+        "Risk Analysis and Report",
+        "Specialist",
+        "Q & A",
+        "Tailored Meals",
+        "Beauty Tips and Wellness"
+      ]
+    },
+    {
+      "name": "Fitgo",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/856789-76705f128843d739eab7fada64824900-medium_jpg.jpg?buster=1451322635",
+      "services_available" : [
+        "Real Time Suggestions",
+        "Home Delivery",
+        "Meal Tracker",
+        "Tailored Meals"
+      ],
+      "services_not_available" : [
+        "CRM",
+        "Fitness Tracker",
+        "Sells Medicines",
+        "Online Prescription",
+        "Book Appointments",
+        "Coaches",
+        "Risk Analysis and Report",
+        "Specialist",
+        "Q & A",
+        "Sexual Tests",
+        "Beauty Tips and Wellness"
+      ]
+    },
+    {
+      "name": "Glopink",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/1215850-ffee81a19aff305af85ecc5069bd5878-thumb_jpg.jpg?buster=1466666460",
+      "services_available" : [
+        "Real Time Suggestions",
+        "Q & A",
+        "Beauty Tips and Wellness"
+      ],
+      "services_not_available" : [
+        "CRM",
+        "Fitness Tracker",
+        "Sells Medicines",
+        "Online Prescription",
+        "Book Appointments",
+        "Coaches",
+        "Risk Analysis and Report",
+        "Specialist",
+        "Sexual Tests",
+        "Home Delivery",
+        "Meal Tracker",
+        "Tailored Meals"
+      ]
+    },
+    {
+      "name": "Fitbit",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/32178-413a38df0f247a7ea23358d80d764a25-thumb_jpg.jpg?buster=1361407886",
+      "services_available" : [
+        "Real Time Suggestions",
+        "Q & A",
+        "Fitness Tracker",
+        "Meal Tracker"
+      ],
+      "services_not_available" : [
+        "CRM",
+        "Sells Medicines",
+        "Online Prescription",
+        "Book Appointments",
+        "Coaches",
+        "Risk Analysis and Report",
+        "Specialist",
+        "Sexual Tests",
+        "Home Delivery",
+        "Tailored Meals",
+        "Beauty Tips and Wellness"
+      ]
+    },
+    {
+      "name": "Practo",
+      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/457188-7ba95fe6a8c0e768cb0273b4327e2839-thumb_jpg.jpg?buster=1449657480",
+      "services_available" : [
+        "Online Prescription",
+        "Book Appointments"
+      ],
+      "services_not_available" : [
+        "Real Time Suggestions",
+        "Q & A",
+        "Fitness Tracker",
+        "Meal Tracker",
+        "CRM",
+        "Sells Medicines",
+        "Coaches",
+        "Risk Analysis and Report",
+        "Specialist",
+        "Sexual Tests",
+        "Home Delivery",
+        "Tailored Meals",
+        "Beauty Tips and Wellness"
+      ]
+    },
   ]
 }
