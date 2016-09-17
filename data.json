@@ -22,7 +22,7 @@
         "home_delivery",
         "menu_handpicking",
         "meal_categorization",
-        "provides_coupons",
+        "provides_coupons"
       ],
       "services_not_available" : [
         "restaurant_options",
@@ -51,7 +51,7 @@
         "sells_raw_food",
         "provides_coupons",
         "juice_only",
-        "restaurant_options",
+        "restaurant_options"
       ],
       "services_not_available" : [
         "cultural_cuisine",
@@ -66,7 +66,7 @@
         "provide_nutrition_content",
         "gift_dining",
         "night_deliveries"
-      ],
+      ]
     },
     {
       "name":"Jumbotail",
@@ -103,7 +103,7 @@
         "app",
         "home_delivery",
         "provides_coupons",
-        "juice_only", 
+        "juice_only"
       ],
       "services_not_available" : [        
         "menu_handpicking",
@@ -212,7 +212,7 @@
         "home_delivery",
         "meal_categorization",
         "provides_coupons",
-        "home_cooked",
+        "home_cooked"
       ],
       "services_not_available" : [        
         "menu_handpicking",
@@ -228,7 +228,7 @@
         "provide_nutrition_content",
         "gift_dining",
         "night_deliveries"
-      ],
+      ]
     },
     {
       "name":"Bhukkad",
@@ -240,7 +240,7 @@
         "menu_handpicking",
         "provides_coupons",
         "sells_fast_food",
-        "home_cooked",
+        "home_cooked"
       ],
       "services_not_available" : [
         "meal_categorization",
@@ -267,7 +267,7 @@
         "home_cooked",
         "home_delivery",
         "provides_coupons",
-        "sells_fast_food",
+        "sells_fast_food"
       ],
       "services_not_available" : [
         "menu_handpicking",
@@ -298,7 +298,7 @@
         "cultural_cuisine",
         "provides_coupons",
         "sells_fast_food",
-        "night_deliveries",
+        "night_deliveries"
       ],
       "services_not_available" : [
         "menu_handpicking",
@@ -374,9 +374,9 @@
         "online_booking",
         "app",
         "home_delivery",
-        "sells_raw_food"
+        "sells_raw_food",
         "provides_coupons",
-        "sells_fast_food",
+        "sells_fast_food"
       ],
       "services_not_available" : [
         "menu_handpicking",
