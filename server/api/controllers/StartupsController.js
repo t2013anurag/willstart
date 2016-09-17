@@ -53,8 +53,9 @@ module.exports = {
 				res.status(200).json(reply)
 			}
 			else{
+				console.log(market[0]);
 				var options = {
-				  args: [market[0][0].companies, f]
+				  args: [market[0].companies, f]
 				};
 				PythonShell.run('../python/main.py', options, function (err, results) {
 				  if (err) throw err;
