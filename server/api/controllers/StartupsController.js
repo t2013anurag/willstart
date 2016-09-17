@@ -39,9 +39,6 @@ module.exports = {
 	'features':function(req,res){
 		var add_features = req.param('services');
 		var market = req.param('market');
-
-		// var f = ["online booking", "delisevery"]
-
 		var PythonShell = require('python-shell');
 
 		Markets.find({'category':market}).exec(function foundMarket(err, market){
