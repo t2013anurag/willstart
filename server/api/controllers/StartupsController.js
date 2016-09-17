@@ -37,7 +37,7 @@ module.exports = {
 	},
 
 	'features':function(req,res){
-		var add_features = req.param('add_features');
+		var add_features = req.param('services');
 		var market = req.param('market');
 
 		var f = ["Online Booking"]
@@ -54,7 +54,7 @@ module.exports = {
 			}
 			else{
 				var options = {
-				  args: [market.companies, f]
+				  args: [market[0].companies, f]
 				};
 				PythonShell.run('../python/main.py', options, function (err, results) {
 				  if (err) throw err;
