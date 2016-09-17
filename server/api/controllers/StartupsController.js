@@ -40,7 +40,7 @@ module.exports = {
 		var add_features = req.param('services');
 		var market = req.param('market');
 
-		var f = ["online booking", "delisevery"]
+		// var f = ["online booking", "delisevery"]
 
 		var PythonShell = require('python-shell');
 
@@ -53,9 +53,8 @@ module.exports = {
 				res.status(200).json(reply)
 			}
 			else{
-				console.log(market[0].companies);
 				var options = {
-				  args: [market[0].companies, f]
+				  args: [market[0].companies, add_features, market]
 				};
 				PythonShell.run('../python/main.py', options, function (err, results) {
 				  if (err) throw err;
