@@ -60,7 +60,7 @@ module.exports = {
 				  if (err) throw err;
 					var reply = {
 						'status': 1,
-						'results': results
+						'results': results[0]
 					}
 					res.status(200).json(reply)
 				});
