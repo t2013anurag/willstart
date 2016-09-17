@@ -1,1047 +1,1049 @@
-{
-  "category": "food",
-  "worth": "24.77B",
-  "total_companies": "173",
-  "funding_raised": "10.71B",
-  "location": "Bangalore",
-  "dsc":{
-    "restaurant_options": "Categorization by restaurants or by food items only",
-    "menu_handpicking": "Menu is handpicked by the chefs of the restaurant each day",
-    "sells_raw_food": "The store sells uncooked food instead of cooked",
-    "cultural_cuisine": "Cuisine pampered to fit your cultural and religious requirements",
-    "tailored_meals": "Tailors the meals according to the physical characterstics of user",
-    "provide_nutrition_content": "Provides nutritional Value of the foods"
+[
+  {
+    "category": "food",
+    "worth": "24.77B",
+    "total_companies": "173",
+    "funding_raised": "10.71B",
+    "location": "Bangalore",
+    "dsc":{
+      "restaurant_options": "Categorization by restaurants or by food items only",
+      "menu_handpicking": "Menu is handpicked by the chefs of the restaurant each day",
+      "sells_raw_food": "The store sells uncooked food instead of cooked",
+      "cultural_cuisine": "Cuisine pampered to fit your cultural and religious requirements",
+      "tailored_meals": "Tailors the meals according to the physical characterstics of user",
+      "provide_nutrition_content": "Provides nutritional Value of the foods"
+    },
+    "companies":[
+      {
+        "name": "Eatlo",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/567426-7c77ddc9bdfcb7a199e37bb42bc9e142-thumb_jpg.jpg?buster=1427522416",
+        "services_available" : [
+          "online_booking",
+          "app",
+          "home_delivery",
+          "menu_handpicking",
+          "meal_categorization",
+          "provides_coupons"
+        ],
+        "services_not_available" : [
+          "restaurant_options",
+          "sells_raw_food",
+          "cultural_cuisine",
+          "juice_only",
+          "sells_booze",
+          "sells_fast_food",
+          "sells_chocolates",
+          "analytics_platform",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "gift_dining",
+          "night_deliveries"
+        ]
+      },
+      {
+        "name":"OrgBasket",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/1044277-54f90f5d9ff330e27398fd088dc717e2-thumb_jpg.jpg?buster=1457249471",
+        "services_available" : [
+          "online_booking",
+          "app",
+          "home_delivery",
+          "menu_handpicking",
+          "meal_categorization",
+          "sells_raw_food",
+          "provides_coupons",
+          "juice_only",
+          "restaurant_options"
+        ],
+        "services_not_available" : [
+          "cultural_cuisine",
+          "home_cooked",
+          "sells_booze",
+          "sells_fast_food",
+          "sells_chocolates",
+          "sells_chocolates",
+          "analytics_platform",
+          "analytics_platform",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "gift_dining",
+          "night_deliveries"
+        ]
+      },
+      {
+        "name":"Jumbotail",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/900778-a8654eb608e3de88a7adb3fb09e264c8-thumb_jpg.jpg?buster=1467893671",
+        "services_available" : [
+          "online_booking",
+          "app",
+          "home_delivery",
+          "provides_coupons",
+          "meal_categorization",
+          "sells_raw_food",
+          "cultural_cuisine",
+          "juice_only"
+        ],
+        "services_not_available" : [
+          "home_cooked",
+          "restaurant_options",
+          "menu_handpicking",
+          "sells_booze",
+          "sells_fast_food",
+          "sells_chocolates",
+          "analytics_platform",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "gift_dining",
+          "night_deliveries"
+        ]
+      },
+      {
+        "name":"Juicemaker",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/902679-84bfbc6dc879000e11c6b28d4cd9fbf0-thumb_jpg.jpg?buster=1450513872",
+        "services_available" : [
+          "online_booking",
+          "app",
+          "home_delivery",
+          "provides_coupons",
+          "juice_only"
+        ],
+        "services_not_available" : [
+          "menu_handpicking",
+          "meal_categorization",
+          "restaurant_options",
+          "sells_raw_food",
+          "cultural_cuisine",
+          "home_cooked",
+          "sells_booze",
+          "sells_fast_food",
+          "sells_chocolates",
+          "analytics_platform",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "gift_dining",
+          "night_deliveries"
+        ]
+      },
+      {
+        "name":"Eatlandish",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/370964-28ed7b33648ba2ebd150b5bfd3c9fc54-thumb_jpg.jpg?buster=1396277869",
+        "services_available" : [
+          "online_booking",
+          "app",
+          "home_delivery",
+          "provides_coupons",
+          "home_cooked"
+        ],
+        "services_not_available" : [
+          "menu_handpicking",
+          "meal_categorization",
+          "restaurant_options",
+          "sells_raw_food",
+          "cultural_cuisine",
+          "juice_only",
+          "sells_booze",
+          "sells_fast_food",
+          "sells_chocolates",
+          "analytics_platform",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "gift_dining",
+          "night_deliveries"
+        ]
+      },
+      {
+        "name":"Swiggy",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/432527-787d891245ba0993ea3739443945a2c6-thumb_jpg.jpg?buster=1407524956",
+        "services_available" : [
+          "online_booking",
+          "app",
+          "night_deliveries",
+          "meal_categorization",
+          "restaurant_options",
+          "home_delivery",
+          "cultural_cuisine",
+          "provides_coupons"
+        ],
+        "services_not_available" : [
+          "menu_handpicking",
+          "sells_raw_food",
+          "juice_only",
+          "home_cooked",
+          "sells_booze",
+          "sells_fast_food",
+          "sells_chocolates",
+          "analytics_platform",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "gift_dining"
+        ]
+      },
+      {
+        "name":"vGulp",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/199002-07fa64dca0377a3d544d1d9a96c9cea9-thumb_jpg.jpg?buster=1413495318",
+        "services_available" : [
+          "app",
+          "provides_coupons",
+          "sells_booze"
+        ],
+        "services_not_available" : [
+          "online_booking",
+          "home_delivery",
+          "menu_handpicking",
+          "meal_categorization",
+          "restaurant_options",
+          "sells_raw_food",
+          "cultural_cuisine",
+          "juice_only",
+          "home_cooked",
+          "sells_fast_food",
+          "sells_chocolates",
+          "analytics_platform",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "gift_dining",
+          "night_deliveries"
+        ]
+      },
+      {
+        "name":"Eatfresh",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/864865-646063b2d82fa3c8e2e390271ced6dd3-thumb_jpg.jpg?buster=1444118813",
+        "services_available" : [
+          "online_booking",
+          "app",
+          "home_delivery",
+          "meal_categorization",
+          "provides_coupons",
+          "home_cooked"
+        ],
+        "services_not_available" : [
+          "menu_handpicking",
+          "restaurant_options",
+          "sells_raw_food",
+          "cultural_cuisine",
+          "juice_only",
+          "sells_booze",
+          "sells_fast_food",
+          "sells_chocolates",
+          "analytics_platform",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "gift_dining",
+          "night_deliveries"
+        ]
+      },
+      {
+        "name":"Bhukkad",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/803136-a40397b161f72c8bbb2d22b122ea300a-thumb_jpg.jpg?buster=1439963982",
+        "services_available" : [
+          "online_booking",
+          "app",
+          "home_delivery",
+          "menu_handpicking",
+          "provides_coupons",
+          "sells_fast_food",
+          "home_cooked"
+        ],
+        "services_not_available" : [
+          "meal_categorization",
+          "restaurant_options",
+          "sells_raw_food",
+          "cultural_cuisine",
+          "juice_only",
+          "sells_booze",
+          "sells_chocolates",
+          "analytics_platform",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "gift_dining",
+          "night_deliveries"
+        ]
+      },
+      {
+        "name":"Chai Point",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/496653-2524fbb4a70979bc7f23c718d2cff6bc-thumb_jpg.jpg?buster=1468815406",
+        "services_available" : [
+          "online_booking",
+          "home_cooked",
+          "home_delivery",
+          "provides_coupons",
+          "sells_fast_food"
+        ],
+        "services_not_available" : [
+          "menu_handpicking",
+          "app",
+          "meal_categorization",
+          "restaurant_options",
+          "sells_raw_food",
+          "cultural_cuisine",
+          "juice_only",
+          "sells_booze",
+          "sells_chocolates",
+          "analytics_platform",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "gift_dining",
+          "night_deliveries"
+        ]
+      },
+      {
+        "name":"Foodpanda",
+        "pic_url": "https://asia-public.foodpanda.com/assets/production/in/layout/themes/capricciosa_foodpanda/images/en/logo.png?v=1459438060",
+        "services_available" : [
+          "online_booking",
+          "app",
+          "home_delivery",
+          "meal_categorization",
+          "restaurant_options",
+          "cultural_cuisine",
+          "provides_coupons",
+          "sells_fast_food",
+          "night_deliveries"
+        ],
+        "services_not_available" : [
+          "menu_handpicking",
+          "sells_raw_food",
+          "juice_only",
+          "home_cooked",
+          "sells_booze",
+          "sells_chocolates",
+          "analytics_platform",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "gift_dining"
+        ]
+      },
+      {
+        "name":"Faasos",
+        "pic_url": "https://www.faasos.com/images/Faasos-logo.png",
+        "services_available" : [
+          "online_booking",
+          "app",
+          "home_delivery",
+          "menu_handpicking",
+          "meal_categorization",
+          "restaurant_options",
+          "home_cooked",
+          "provides_coupons",
+          "sells_fast_food"
+        ],
+        "services_not_available" : [
+          "sells_raw_food",
+          "cultural_cuisine",
+          "juice_only",
+          "sells_booze",
+          "sells_chocolates",
+          "analytics_platform",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "gift_dining",
+          "night_deliveries"
+        ]
+      },
+      {
+        "name":"Zomato",
+        "pic_url": "https://b.zmtcdn.com/images/logo/zomato_white.svg",
+        "services_available" : [
+          "online_booking",
+          "app",
+          "home_delivery",
+          "provides_coupons",
+          "sells_fast_food",
+          "cultural_cuisine",
+          "meal_categorization",
+          "restaurant_options"
+        ],
+        "services_not_available" : [
+          "menu_handpicking",
+          "sells_raw_food",
+          "juice_only",
+          "home_cooked",
+          "sells_booze",
+          "sells_chocolates",
+          "analytics_platform",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "gift_dining",
+          "night_deliveries"
+        ]
+      },
+      {
+        "name":"Grofers",
+        "pic_url": "https://grofers.com/images/grofers-logo.png",
+        "services_available" : [
+          "online_booking",
+          "app",
+          "home_delivery",
+          "sells_raw_food",
+          "provides_coupons",
+          "sells_fast_food"
+        ],
+        "services_not_available" : [
+          "menu_handpicking",
+          "meal_categorization",
+          "restaurant_options",
+          "cultural_cuisine",
+          "juice_only",
+          "home_cooked",
+          "sells_booze",
+          "sells_chocolates",
+          "analytics_platform",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "gift_dining",
+          "night_deliveries"
+        ]
+      },
+      {
+        "name":"Chocozonia",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/527681-6d4f19da2b544ba937a6c723051d7822-thumb_jpg.jpg?buster=1415219164",
+        "services_available" : [
+          "online_booking",
+          "app",
+          "home_delivery",
+          "provides_coupons",
+          "sells_fast_food",
+          "sells_chocolates",
+          "home_cooked"
+        ],
+        "services_not_available" : [
+          "menu_handpicking",
+          "meal_categorization",
+          "restaurant_options",
+          "sells_raw_food",
+          "cultural_cuisine",
+          "juice_only",
+          "sells_booze",
+          "analytics_platform",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "gift_dining",
+          "night_deliveries",
+          "night_deliveries"
+        ]
+      },
+      {
+        "name":"Mithacafe",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/667735-94ddbad921e38a9004514ec5d12e530e-thumb_jpg.jpg?buster=1428960998",
+        "services_available" : [
+          "online_booking",
+          "app",
+          "home_delivery",
+          "provides_coupons",
+          "sells_fast_food",
+          "sells_chocolates",
+          "home_cooked"
+        ],
+        "services_not_available" : [
+          "menu_handpicking",
+          "meal_categorization",
+          "restaurant_options",
+          "sells_raw_food",
+          "cultural_cuisine",
+          "juice_only",
+          "sells_booze",
+          "analytics_platform",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "gift_dining",
+          "night_deliveries"
+        ]
+      },
+      {
+        "name":"Drink King",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/699274-369f23bf996984f52a1c9d5240fce59b-thumb_jpg.jpg?buster=1443011504",
+        "services_available" : [
+          "online_booking",
+          "app",
+          "home_delivery",
+          "provides_coupons",
+          "sells_booze"
+        ],
+        "services_not_available" : [
+          "menu_handpicking",
+          "meal_categorization",
+          "restaurant_options",
+          "sells_raw_food",
+          "cultural_cuisine",
+          "juice_only",
+          "home_cooked",
+          "sells_fast_food",
+          "sells_chocolates",
+          "analytics_platform",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "gift_dining",
+          "night_deliveries"
+        ]
+      },
+      {
+        "name":"Rossiteck",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/233537-3ed0a4015749ea4f8ad87034fa698546-thumb_jpg.jpg?buster=1373626432",
+        "services_available" : [
+          "online_booking",
+          "app",
+          "provides_coupons"
+        ],
+        "services_not_available" : [
+          "home_delivery",
+          "menu_handpicking",
+          "meal_categorization",
+          "restaurant_options",
+          "sells_raw_food",
+          "cultural_cuisine",
+          "juice_only",
+          "home_cooked",
+          "sells_booze",
+          "sells_fast_food",
+          "sells_chocolates",
+          "analytics_platform",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "gift_dining",
+          "night_deliveries"
+        ]
+      },
+      {
+        "name":"EzySupply",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/1439360-9e026193e05471dd8c467e5ac3e7f26d-thumb_jpg.jpg?buster=1471341781",
+        "services_available" : [
+          "analytics_platform",
+          "app"
+        ],
+        "services_not_available" : [
+          "online_booking",
+          "home_delivery",
+          "menu_handpicking",
+          "meal_categorization",
+          "restaurant_options",
+          "sells_raw_food",
+          "cultural_cuisine",
+          "juice_only",
+          "home_cooked",
+          "sells_booze",
+          "provides_coupons",
+          "sells_fast_food",
+          "sells_chocolates",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "gift_dining",
+          "night_deliveries"
+        ]
+      },
+      {
+        "name":"Momscurry",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/1090335-8fbc8d9ba6a71c424c1e3c149f007c6e-thumb_jpg.jpg?buster=1460378508",
+        "services_available" : [
+          "online_booking",
+          "app",
+          "meal_categorization",
+          "restaurant_options",
+          "home_delivery",
+          "home_cooked",
+          "sells_fast_food"
+        ],
+        "services_not_available" : [
+          "menu_handpicking",
+          "sells_raw_food",
+          "cultural_cuisine",
+          "juice_only",
+          "sells_booze",
+          "provides_coupons",
+          "sells_chocolates",
+          "analytics_platform",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "gift_dining",
+          "night_deliveries"
+        ]
+      },
+      {
+        "name":"Box8",
+        "pic_url": "https://box8.in/images/logo.6d41ab8b.png",
+        "services_available" : [
+          "online_booking",
+          "app",
+          "home_delivery",
+          "meal_categorization",
+          "restaurant_options",
+          "home_cooked",
+          "provides_coupons",
+          "sells_fast_food"
+        ],
+        "services_not_available" : [
+          "menu_handpicking",
+          "sells_raw_food",
+          "cultural_cuisine",
+          "juice_only",
+          "sells_booze",
+          "sells_chocolates",
+          "analytics_platform",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "gift_dining",
+          "night_deliveries"
+        ]
+      },
+      {
+        "name":"Fitgo",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/856789-76705f128843d739eab7fada64824900-thumb_jpg.jpg?buster=1451322635",
+        "services_available" : [
+          "online_booking",
+          "app",
+          "home_delivery",
+          "menu_handpicking",
+          "meal_categorization",
+          "restaurant_options",
+          "provides_coupons",
+          "sells_fast_food",
+          "cultural_cuisine",
+          "home_cooked",
+          "tailored_meals",
+          "provide_nutrition_content"
+        ],
+        "services_not_available" : [
+          "sells_raw_food",
+          "juice_only",
+          "sells_booze",
+          "sells_chocolates",
+          "analytics_platform",
+          "gift_dining",
+          "night_deliveries"
+        ]
+      },
+      {
+        "name":"Telory",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/719396-feba39ccae8887c0605b33feee37348b-thumb_jpg.jpg?buster=1433345029",
+        "services_available" : [
+          "online_booking",
+          "app",
+          "home_delivery",
+          "menu_handpicking",
+          "meal_categorization",
+          "provides_coupons",
+          "sells_fast_food",
+          "restaurant_options",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "gift_dining",
+          "cultural_cuisine",
+          "home_cooked"
+        ],
+        "services_not_available" : [
+          "sells_raw_food",
+          "juice_only",
+          "sells_booze",
+          "sells_chocolates",
+          "analytics_platform",
+          "night_deliveries"
+        ]
+      },
+      {
+        "name":"Latenight",
+        "pic_url": "http://www.latenight.in/catalog/view/theme/pav_styleshop/image/default/logo.png",
+        "services_available" : [
+          "online_booking",
+          "app",
+          "home_delivery",
+          "menu_handpicking",
+          "night_deliveries",
+          "tailored_meals",
+          "provide_nutrition_content",
+          "provides_coupons",
+          "sells_fast_food",
+          "meal_categorization",
+          "home_cooked",
+          "restaurant_options",
+          "cultural_cuisine"
+        ],
+        "services_not_available" : [
+          "sells_raw_food",
+          "juice_only",
+          "sells_booze",
+          "sells_chocolates",
+          "analytics_platform",
+          "gift_dining"
+        ]
+      }
+    ]
   },
-  "companies":[
-    {
-      "name": "Eatlo",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/567426-7c77ddc9bdfcb7a199e37bb42bc9e142-thumb_jpg.jpg?buster=1427522416",
-      "services_available" : [
-        "online_booking",
-        "app",
-        "home_delivery",
-        "menu_handpicking",
-        "meal_categorization",
-        "provides_coupons"
-      ],
-      "services_not_available" : [
-        "restaurant_options",
-        "sells_raw_food",
-        "cultural_cuisine",
-        "juice_only",
-        "sells_booze",
-        "sells_fast_food",
-        "sells_chocolates",
-        "analytics_platform",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "gift_dining",
-        "night_deliveries"
-      ]
-    },
-    {
-      "name":"OrgBasket",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/1044277-54f90f5d9ff330e27398fd088dc717e2-thumb_jpg.jpg?buster=1457249471",
-      "services_available" : [
-        "online_booking",
-        "app",
-        "home_delivery",
-        "menu_handpicking",
-        "meal_categorization",
-        "sells_raw_food",
-        "provides_coupons",
-        "juice_only",
-        "restaurant_options"
-      ],
-      "services_not_available" : [
-        "cultural_cuisine",
-        "home_cooked",
-        "sells_booze",
-        "sells_fast_food",
-        "sells_chocolates",
-        "sells_chocolates",
-        "analytics_platform",
-        "analytics_platform",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "gift_dining",
-        "night_deliveries"
-      ]
-    },
-    {
-      "name":"Jumbotail",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/900778-a8654eb608e3de88a7adb3fb09e264c8-thumb_jpg.jpg?buster=1467893671",
-      "services_available" : [
-        "online_booking",
-        "app",
-        "home_delivery",
-        "provides_coupons",
-        "meal_categorization",
-        "sells_raw_food",
-        "cultural_cuisine",
-        "juice_only"
-      ],
-      "services_not_available" : [
-        "home_cooked",
-        "restaurant_options",
-        "menu_handpicking",
-        "sells_booze",
-        "sells_fast_food",
-        "sells_chocolates",
-        "analytics_platform",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "gift_dining",
-        "night_deliveries"
-      ]
-    },
-    {
-      "name":"Juicemaker",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/902679-84bfbc6dc879000e11c6b28d4cd9fbf0-thumb_jpg.jpg?buster=1450513872",
-      "services_available" : [
-        "online_booking",
-        "app",
-        "home_delivery",
-        "provides_coupons",
-        "juice_only"
-      ],
-      "services_not_available" : [
-        "menu_handpicking",
-        "meal_categorization",
-        "restaurant_options",
-        "sells_raw_food",
-        "cultural_cuisine",
-        "home_cooked",
-        "sells_booze",
-        "sells_fast_food",
-        "sells_chocolates",
-        "analytics_platform",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "gift_dining",
-        "night_deliveries"
-      ]
-    },
-    {
-      "name":"Eatlandish",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/370964-28ed7b33648ba2ebd150b5bfd3c9fc54-thumb_jpg.jpg?buster=1396277869",
-      "services_available" : [
-        "online_booking",
-        "app",
-        "home_delivery",
-        "provides_coupons",
-        "home_cooked"
-      ],
-      "services_not_available" : [
-        "menu_handpicking",
-        "meal_categorization",
-        "restaurant_options",
-        "sells_raw_food",
-        "cultural_cuisine",
-        "juice_only",
-        "sells_booze",
-        "sells_fast_food",
-        "sells_chocolates",
-        "analytics_platform",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "gift_dining",
-        "night_deliveries"
-      ]
-    },
-    {
-      "name":"Swiggy",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/432527-787d891245ba0993ea3739443945a2c6-thumb_jpg.jpg?buster=1407524956",
-      "services_available" : [
-        "online_booking",
-        "app",
-        "night_deliveries",
-        "meal_categorization",
-        "restaurant_options",
-        "home_delivery",
-        "cultural_cuisine",
-        "provides_coupons"
-      ],
-      "services_not_available" : [
-        "menu_handpicking",
-        "sells_raw_food",
-        "juice_only",
-        "home_cooked",
-        "sells_booze",
-        "sells_fast_food",
-        "sells_chocolates",
-        "analytics_platform",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "gift_dining"
-      ]
-    },
-    {
-      "name":"vGulp",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/199002-07fa64dca0377a3d544d1d9a96c9cea9-thumb_jpg.jpg?buster=1413495318",
-      "services_available" : [
-        "app",
-        "provides_coupons",
-        "sells_booze"
-      ],
-      "services_not_available" : [
-        "online_booking",
-        "home_delivery",
-        "menu_handpicking",
-        "meal_categorization",
-        "restaurant_options",
-        "sells_raw_food",
-        "cultural_cuisine",
-        "juice_only",
-        "home_cooked",
-        "sells_fast_food",
-        "sells_chocolates",
-        "analytics_platform",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "gift_dining",
-        "night_deliveries"
-      ]
-    },
-    {
-      "name":"Eatfresh",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/864865-646063b2d82fa3c8e2e390271ced6dd3-thumb_jpg.jpg?buster=1444118813",
-      "services_available" : [
-        "online_booking",
-        "app",
-        "home_delivery",
-        "meal_categorization",
-        "provides_coupons",
-        "home_cooked"
-      ],
-      "services_not_available" : [
-        "menu_handpicking",
-        "restaurant_options",
-        "sells_raw_food",
-        "cultural_cuisine",
-        "juice_only",
-        "sells_booze",
-        "sells_fast_food",
-        "sells_chocolates",
-        "analytics_platform",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "gift_dining",
-        "night_deliveries"
-      ]
-    },
-    {
-      "name":"Bhukkad",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/803136-a40397b161f72c8bbb2d22b122ea300a-thumb_jpg.jpg?buster=1439963982",
-      "services_available" : [
-        "online_booking",
-        "app",
-        "home_delivery",
-        "menu_handpicking",
-        "provides_coupons",
-        "sells_fast_food",
-        "home_cooked"
-      ],
-      "services_not_available" : [
-        "meal_categorization",
-        "restaurant_options",
-        "sells_raw_food",
-        "cultural_cuisine",
-        "juice_only",
-        "sells_booze",
-        "sells_chocolates",
-        "analytics_platform",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "gift_dining",
-        "night_deliveries"
-      ]
-    },
-    {
-      "name":"Chai Point",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/496653-2524fbb4a70979bc7f23c718d2cff6bc-thumb_jpg.jpg?buster=1468815406",
-      "services_available" : [
-        "online_booking",
-        "home_cooked",
-        "home_delivery",
-        "provides_coupons",
-        "sells_fast_food"
-      ],
-      "services_not_available" : [
-        "menu_handpicking",
-        "app",
-        "meal_categorization",
-        "restaurant_options",
-        "sells_raw_food",
-        "cultural_cuisine",
-        "juice_only",
-        "sells_booze",
-        "sells_chocolates",
-        "analytics_platform",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "gift_dining",
-        "night_deliveries"
-      ]
-    },
-    {
-      "name":"Foodpanda",
-      "pic_url": "https://asia-public.foodpanda.com/assets/production/in/layout/themes/capricciosa_foodpanda/images/en/logo.png?v=1459438060",
-      "services_available" : [
-        "online_booking",
-        "app",
-        "home_delivery",
-        "meal_categorization",
-        "restaurant_options",
-        "cultural_cuisine",
-        "provides_coupons",
-        "sells_fast_food",
-        "night_deliveries"
-      ],
-      "services_not_available" : [
-        "menu_handpicking",
-        "sells_raw_food",
-        "juice_only",
-        "home_cooked",
-        "sells_booze",
-        "sells_chocolates",
-        "analytics_platform",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "gift_dining"
-      ]
-    },
-    {
-      "name":"Faasos",
-      "pic_url": "https://www.faasos.com/images/Faasos-logo.png",
-      "services_available" : [
-        "online_booking",
-        "app",
-        "home_delivery",
-        "menu_handpicking",
-        "meal_categorization",
-        "restaurant_options",
-        "home_cooked",
-        "provides_coupons",
-        "sells_fast_food"
-      ],
-      "services_not_available" : [
-        "sells_raw_food",
-        "cultural_cuisine",
-        "juice_only",
-        "sells_booze",
-        "sells_chocolates",
-        "analytics_platform",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "gift_dining",
-        "night_deliveries"
-      ]
-    },
-    {
-      "name":"Zomato",
-      "pic_url": "https://b.zmtcdn.com/images/logo/zomato_white.svg",
-      "services_available" : [
-        "online_booking",
-        "app",
-        "home_delivery",
-        "provides_coupons",
-        "sells_fast_food",
-        "cultural_cuisine",
-        "meal_categorization",
-        "restaurant_options"
-      ],
-      "services_not_available" : [
-        "menu_handpicking",
-        "sells_raw_food",
-        "juice_only",
-        "home_cooked",
-        "sells_booze",
-        "sells_chocolates",
-        "analytics_platform",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "gift_dining",
-        "night_deliveries"
-      ]
-    },
-    {
-      "name":"Grofers",
-      "pic_url": "https://grofers.com/images/grofers-logo.png",
-      "services_available" : [
-        "online_booking",
-        "app",
-        "home_delivery",
-        "sells_raw_food",
-        "provides_coupons",
-        "sells_fast_food"
-      ],
-      "services_not_available" : [
-        "menu_handpicking",
-        "meal_categorization",
-        "restaurant_options",
-        "cultural_cuisine",
-        "juice_only",
-        "home_cooked",
-        "sells_booze",
-        "sells_chocolates",
-        "analytics_platform",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "gift_dining",
-        "night_deliveries"
-      ]
-    },
-    {
-      "name":"Chocozonia",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/527681-6d4f19da2b544ba937a6c723051d7822-thumb_jpg.jpg?buster=1415219164",
-      "services_available" : [
-        "online_booking",
-        "app",
-        "home_delivery",
-        "provides_coupons",
-        "sells_fast_food",
-        "sells_chocolates",
-        "home_cooked"
-      ],
-      "services_not_available" : [
-        "menu_handpicking",
-        "meal_categorization",
-        "restaurant_options",
-        "sells_raw_food",
-        "cultural_cuisine",
-        "juice_only",
-        "sells_booze",
-        "analytics_platform",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "gift_dining",
-        "night_deliveries",
-        "night_deliveries"
-      ]
-    },
-    {
-      "name":"Mithacafe",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/667735-94ddbad921e38a9004514ec5d12e530e-thumb_jpg.jpg?buster=1428960998",
-      "services_available" : [
-        "online_booking",
-        "app",
-        "home_delivery",
-        "provides_coupons",
-        "sells_fast_food",
-        "sells_chocolates",
-        "home_cooked"
-      ],
-      "services_not_available" : [
-        "menu_handpicking",
-        "meal_categorization",
-        "restaurant_options",
-        "sells_raw_food",
-        "cultural_cuisine",
-        "juice_only",
-        "sells_booze",
-        "analytics_platform",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "gift_dining",
-        "night_deliveries"
-      ]
-    },
-    {
-      "name":"Drink King",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/699274-369f23bf996984f52a1c9d5240fce59b-thumb_jpg.jpg?buster=1443011504",
-      "services_available" : [
-        "online_booking",
-        "app",
-        "home_delivery",
-        "provides_coupons",
-        "sells_booze"
-      ],
-      "services_not_available" : [
-        "menu_handpicking",
-        "meal_categorization",
-        "restaurant_options",
-        "sells_raw_food",
-        "cultural_cuisine",
-        "juice_only",
-        "home_cooked",
-        "sells_fast_food",
-        "sells_chocolates",
-        "analytics_platform",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "gift_dining",
-        "night_deliveries"
-      ]
-    },
-    {
-      "name":"Rossiteck",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/233537-3ed0a4015749ea4f8ad87034fa698546-thumb_jpg.jpg?buster=1373626432",
-      "services_available" : [
-        "online_booking",
-        "app",
-        "provides_coupons"
-      ],
-      "services_not_available" : [
-        "home_delivery",
-        "menu_handpicking",
-        "meal_categorization",
-        "restaurant_options",
-        "sells_raw_food",
-        "cultural_cuisine",
-        "juice_only",
-        "home_cooked",
-        "sells_booze",
-        "sells_fast_food",
-        "sells_chocolates",
-        "analytics_platform",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "gift_dining",
-        "night_deliveries"
-      ]
-    },
-    {
-      "name":"EzySupply",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/1439360-9e026193e05471dd8c467e5ac3e7f26d-thumb_jpg.jpg?buster=1471341781",
-      "services_available" : [
-        "analytics_platform",
-        "app"
-      ],
-      "services_not_available" : [
-        "online_booking",
-        "home_delivery",
-        "menu_handpicking",
-        "meal_categorization",
-        "restaurant_options",
-        "sells_raw_food",
-        "cultural_cuisine",
-        "juice_only",
-        "home_cooked",
-        "sells_booze",
-        "provides_coupons",
-        "sells_fast_food",
-        "sells_chocolates",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "gift_dining",
-        "night_deliveries"
-      ]
-    },
-    {
-      "name":"Momscurry",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/1090335-8fbc8d9ba6a71c424c1e3c149f007c6e-thumb_jpg.jpg?buster=1460378508",
-      "services_available" : [
-        "online_booking",
-        "app",
-        "meal_categorization",
-        "restaurant_options",
-        "home_delivery",
-        "home_cooked",
-        "sells_fast_food"
-      ],
-      "services_not_available" : [
-        "menu_handpicking",
-        "sells_raw_food",
-        "cultural_cuisine",
-        "juice_only",
-        "sells_booze",
-        "provides_coupons",
-        "sells_chocolates",
-        "analytics_platform",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "gift_dining",
-        "night_deliveries"
-      ]
-    },
-    {
-      "name":"Box8",
-      "pic_url": "https://box8.in/images/logo.6d41ab8b.png",
-      "services_available" : [
-        "online_booking",
-        "app",
-        "home_delivery",
-        "meal_categorization",
-        "restaurant_options",
-        "home_cooked",
-        "provides_coupons",
-        "sells_fast_food"
-      ],
-      "services_not_available" : [
-        "menu_handpicking",
-        "sells_raw_food",
-        "cultural_cuisine",
-        "juice_only",
-        "sells_booze",
-        "sells_chocolates",
-        "analytics_platform",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "gift_dining",
-        "night_deliveries"
-      ]
-    },
-    {
-      "name":"Fitgo",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/856789-76705f128843d739eab7fada64824900-thumb_jpg.jpg?buster=1451322635",
-      "services_available" : [
-        "online_booking",
-        "app",
-        "home_delivery",
-        "menu_handpicking",
-        "meal_categorization",
-        "restaurant_options",
-        "provides_coupons",
-        "sells_fast_food",
-        "cultural_cuisine",
-        "home_cooked",
-        "tailored_meals",
-        "provide_nutrition_content"
-      ],
-      "services_not_available" : [
-        "sells_raw_food",
-        "juice_only",
-        "sells_booze",
-        "sells_chocolates",
-        "analytics_platform",
-        "gift_dining",
-        "night_deliveries"
-      ]
-    },
-    {
-      "name":"Telory",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/719396-feba39ccae8887c0605b33feee37348b-thumb_jpg.jpg?buster=1433345029",
-      "services_available" : [
-        "online_booking",
-        "app",
-        "home_delivery",
-        "menu_handpicking",
-        "meal_categorization",
-        "provides_coupons",
-        "sells_fast_food",
-        "restaurant_options",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "gift_dining",
-        "cultural_cuisine",
-        "home_cooked"
-      ],
-      "services_not_available" : [
-        "sells_raw_food",
-        "juice_only",
-        "sells_booze",
-        "sells_chocolates",
-        "analytics_platform",
-        "night_deliveries"
-      ]
-    },
-    {
-      "name":"Latenight",
-      "pic_url": "http://www.latenight.in/catalog/view/theme/pav_styleshop/image/default/logo.png",
-      "services_available" : [
-        "online_booking",
-        "app",
-        "home_delivery",
-        "menu_handpicking",
-        "night_deliveries",
-        "tailored_meals",
-        "provide_nutrition_content",
-        "provides_coupons",
-        "sells_fast_food",
-        "meal_categorization",
-        "home_cooked",
-        "restaurant_options",
-        "cultural_cuisine"
-      ],
-      "services_not_available" : [
-        "sells_raw_food",
-        "juice_only",
-        "sells_booze",
-        "sells_chocolates",
-        "analytics_platform",
-        "gift_dining"
-      ]
-    }
-  ]
-}
-{
-  "category": "health",
-  "worth": "100B",
-  "total_companies": "296",
-  "funding_raised": "79B",
-  "location": "Bangalore",
-  "dsc":{},
-  "companies":[
-    {
-      "name": "Healthcaremagic",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/213317-18b5bcbace8c8529b22c4f6564dc9979-medium_jpg.jpg?buster=1369739885",
-      "services_available" : [
-        "Online Prescription",
-        "Specialist",
-        "Real Time Suggestions",
-        "Q & A"
-      ],
-      "services_not_available" : [
-        "Risk Analysis and Report",
-        "Book Appointments",
-        "CRM",
-        "Fitness Tracker",
-        "Coaches",
-        "Meal Tracker",
-        "Home Delivery",
-        "Sells Medicines",
-        "Sexual Tests",
-        "Tailored Meals",
-        "Beauty Tips and Wellness"
-      ]
-    },
-    {
-      "name": "Health Vectors",
-      "pic_url": "http://www.360hvpl.com/images/logo.png",
-      "services_available" : [
-        "Risk Analysis and Report"
-      ],
-      "services_not_available" : [
-        "Online Prescription",
-        "Specialist",
-        "Real Time Suggestions",
-        "Book Appointments"
-        "Q & A",
-        "CRM",
-        "Fitness Tracker",
-        "Coaches",
-        "Meal Tracker",
-        "Home Delivery",
-        "Sells Medicines",
-        "Sexual Tests",
-        "Tailored Meals",
-        "Beauty Tips and Wellness"
-      ]
-    },
-    {
-      "name": "Quickwell",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/188603-5333c9674f46a0747a60a2f1b02e9bbc-thumb_jpg.jpg?buster=1364452951",
-      "services_available" : [
-        "Real Time Suggestions",
-        "Book Appointments"
-        "Online Prescription",
-        "Specialist",
-        "Q & A"
-      ],
-      "services_not_available" : [
-        "Risk Analysis and Report",
-        "CRM",
-        "Fitness Tracker",
-        "Coaches",
-        "Meal Tracker",
-        "Home Delivery",
-        "Sells Medicines",
-        "Sexual Tests",
-        "Tailored Meals",
-        "Beauty Tips and Wellness"
-      ]
-    },
-    {
-      "name": "Docengage",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/144063-aca69fb90e8a343412414959f4a581ac-thumb_jpg.jpg?buster=1422592528",
-      "services_available" : [
-        "Real Time Suggestions",
-        "Book Appointments",
-        "Online Prescription",
-        "Specialist",
-        "Q & A",
-        "CRM"
-      ],
-      "services_not_available" : [
-        "Risk Analysis and Report",
-        "Fitness Tracker",
-        "Coaches",
-        "Meal Tracker",
-        "Home Delivery",
-        "Sells Medicines",
-        "Sexual Tests",
-        "Tailored Meals",
-        "Beauty Tips and Wellness"
-      ]
-    },
-    {
-      "name": "Healthifyme",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/205988-ba3538ef1d41ffdd714c04064cabe72f-thumb_jpg.jpg?buster=1417528353",
-      "services_available" : [
-        "Real Time Suggestions",
-        "Fitness Tracker",
-        "Coaches",
-        "Meal Tracker",
-        "Specialist",
-        "Q & A"
-      ],
-      "services_not_available" : [
-        "Risk Analysis and Report",
-        "Book Appointments",
-        "Online Prescription",
-        "CRM",
-        "Home Delivery",
-        "Sells Medicines",
-        "Sexual Tests",
-        "Tailored Meals",
-        "Beauty Tips and Wellness"
-      ]
-    },
-    {
-      "name": "Dataphi Labs",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/888428-20b2d0923d93e604c60663c4c73ab4a6-thumb_jpg.jpg?buster=1445762496",
-      "services_available" : [
-        "Fitness Tracker",
-        "Coaches",
-        "Meal Tracker",
-        "Risk Analysis and Report"
-      ],
-      "services_not_available" : [
-        "Specialist",
-        "Real Time Suggestions",
-        "Book Appointments",
-        "Online Prescription",
-        "Q & A",
-        "CRM",
-        "Home Delivery",
-        "Sexual Tests",
-        "Sells Medicines",
-        "Tailored Meals",
-        "Beauty Tips and Wellness"
-      ]
-    },
-    {
-      "name": "SmartRx",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/93469-f7702fc42423fc9673cd041a37e8c66f-thumb_jpg.jpg?buster=1338229978",
-      "services_available" : [
-        "Risk Analysis and Report"
-        "Real Time Suggestions",
-        "Online Prescription",
-        "CRM"
-      ],
-      "services_not_available" : [
-        "Specialist",
-        "Book Appointments",
-        "Q & A",
-        "Fitness Tracker",
-        "Coaches",
-        "Meal Tracker",
-        "Home Delivery",
-        "Sells Medicines",
-        "Sexual Tests",
-        "Tailored Meals",
-        "Beauty Tips and Wellness"
-      ]
-    },
-    {
-      "name": "Omnify",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/299702-895dcd14577628c8ea3eeec6931dbd32-medium_jpg.jpg?buster=1470383942",
-      "services_available" : [
-        "Real Time Suggestions",
-        "Online Prescription",
-        "CRM",
-        "Fitness Tracker",
-        "Coaches",
-        "Book Appointments",
-      ],
-      "services_not_available" : [
-        "Risk Analysis and Report",
-        "Meal Tracker",
-        "Specialist",
-        "Q & A",
-        "Home Delivery",
-        "Sells Medicines",
-        "Sexual Tests",
-        "Tailored Meals",
-        "Beauty Tips and Wellness"
-      ]
-    },
-    {
-      "name": "DataDab",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/508645-541f2b1764d613eb5a2528399e916633-thumb_jpg.jpg?buster=1413062792",
-      "services_available" : [
-        "CRM",
-        "Fitness Tracker",
-        "Coaches",
-        "Risk Analysis and Report",
-      ],
-      "services_not_available" : [
-        "Real Time Suggestions",
-        "Online Prescription",
-        "Book Appointments",
-        "Meal Tracker",
-        "Specialist",
-        "Q & A",
-        "Home Delivery",
-        "Sells Medicines",
-        "Sexual Tests",
-        "Tailored Meals",
-        "Beauty Tips and Wellness"
-      ]
-    },
-    {
-      "name": "Fitmonk",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/818389-998cc3dd49cb904a19a7b00725f466d3-medium_jpg.jpg?buster=1450984475",
-      "services_available" : [
-        "CRM",
-        "Fitness Tracker",
-        "Coaches",
-        "Real Time Suggestions",
-        "Online Prescription",
-        "Book Appointments",
-        "Meal Tracker",
-      ],
-      "services_not_available" : [
-        "Risk Analysis and Report",
-        "Specialist",
-        "Q & A",
-        "Home Delivery",
-        "Sells Medicines",
-        "Sexual Tests",
-        "Tailored Meals",
-        "Beauty Tips and Wellness"
-      ]
-    },
-    {
-      "name": "Myra Medicines",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/832052-c42314bc022be80d285cdc2190fdb462-thumb_jpg.jpg?buster=1441887072",
-      "services_available" : [
-        "Real Time Suggestions",
-        "Online Prescription",
-        "Book Appointments",
-        "Home Delivery",
-        "Sells Medicines"
-      ],
-      "services_not_available" : [
-        "Meal Tracker",
-        "CRM",
-        "Fitness Tracker",
-        "Coaches",
-        "Risk Analysis and Report",
-        "Specialist",
-        "Q & A",
-        "Sexual Tests",
-        "Tailored Meals",
-        "Beauty Tips and Wellness"
-      ]
-    },
-    {
-      "name": "Cupid Care",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/866357-c82641d7113660ecc9e8119fecd2c86f-medium_jpg.jpg?buster=1444194993",
-      "services_available" : [
-        "Real Time Suggestions",
-        "Online Prescription",
-        "Book Appointments",
-        "Home Delivery",
-        "Sells Medicines",
-        "Sexual Tests"
-      ],
-      "services_not_available" : [
-        "Meal Tracker",
-        "CRM",
-        "Fitness Tracker",
-        "Coaches",
-        "Risk Analysis and Report",
-        "Specialist",
-        "Q & A",
-        "Tailored Meals",
-        "Beauty Tips and Wellness"
-      ]
-    },
-    {
-      "name": "Fitgo",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/856789-76705f128843d739eab7fada64824900-medium_jpg.jpg?buster=1451322635",
-      "services_available" : [
-        "Real Time Suggestions",
-        "Home Delivery",
-        "Meal Tracker",
-        "Tailored Meals"
-      ],
-      "services_not_available" : [
-        "CRM",
-        "Fitness Tracker",
-        "Sells Medicines",
-        "Online Prescription",
-        "Book Appointments",
-        "Coaches",
-        "Risk Analysis and Report",
-        "Specialist",
-        "Q & A",
-        "Sexual Tests",
-        "Beauty Tips and Wellness"
-      ]
-    },
-    {
-      "name": "Glopink",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/1215850-ffee81a19aff305af85ecc5069bd5878-thumb_jpg.jpg?buster=1466666460",
-      "services_available" : [
-        "Real Time Suggestions",
-        "Q & A",
-        "Beauty Tips and Wellness"
-      ],
-      "services_not_available" : [
-        "CRM",
-        "Fitness Tracker",
-        "Sells Medicines",
-        "Online Prescription",
-        "Book Appointments",
-        "Coaches",
-        "Risk Analysis and Report",
-        "Specialist",
-        "Sexual Tests",
-        "Home Delivery",
-        "Meal Tracker",
-        "Tailored Meals"
-      ]
-    },
-    {
-      "name": "Fitbit",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/32178-413a38df0f247a7ea23358d80d764a25-thumb_jpg.jpg?buster=1361407886",
-      "services_available" : [
-        "Real Time Suggestions",
-        "Q & A",
-        "Fitness Tracker",
-        "Meal Tracker"
-      ],
-      "services_not_available" : [
-        "CRM",
-        "Sells Medicines",
-        "Online Prescription",
-        "Book Appointments",
-        "Coaches",
-        "Risk Analysis and Report",
-        "Specialist",
-        "Sexual Tests",
-        "Home Delivery",
-        "Tailored Meals",
-        "Beauty Tips and Wellness"
-      ]
-    },
-    {
-      "name": "Practo",
-      "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/457188-7ba95fe6a8c0e768cb0273b4327e2839-thumb_jpg.jpg?buster=1449657480",
-      "services_available" : [
-        "Online Prescription",
-        "Book Appointments"
-      ],
-      "services_not_available" : [
-        "Real Time Suggestions",
-        "Q & A",
-        "Fitness Tracker",
-        "Meal Tracker",
-        "CRM",
-        "Sells Medicines",
-        "Coaches",
-        "Risk Analysis and Report",
-        "Specialist",
-        "Sexual Tests",
-        "Home Delivery",
-        "Tailored Meals",
-        "Beauty Tips and Wellness"
-      ]
-    },
-  ]
-}
+  {
+    "category": "health",
+    "worth": "100B",
+    "total_companies": "296",
+    "funding_raised": "79B",
+    "location": "Bangalore",
+    "dsc":{},
+    "companies":[
+      {
+        "name": "Healthcaremagic",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/213317-18b5bcbace8c8529b22c4f6564dc9979-medium_jpg.jpg?buster=1369739885",
+        "services_available" : [
+          "Online Prescription",
+          "Specialist",
+          "Real Time Suggestions",
+          "Q & A"
+        ],
+        "services_not_available" : [
+          "Risk Analysis and Report",
+          "Book Appointments",
+          "CRM",
+          "Fitness Tracker",
+          "Coaches",
+          "Meal Tracker",
+          "Home Delivery",
+          "Sells Medicines",
+          "Sexual Tests",
+          "Tailored Meals",
+          "Beauty Tips and Wellness"
+        ]
+      },
+      {
+        "name": "Health Vectors",
+        "pic_url": "http://www.360hvpl.com/images/logo.png",
+        "services_available" : [
+          "Risk Analysis and Report"
+        ],
+        "services_not_available" : [
+          "Online Prescription",
+          "Specialist",
+          "Real Time Suggestions",
+          "Book Appointments",
+          "Q & A",
+          "CRM",
+          "Fitness Tracker",
+          "Coaches",
+          "Meal Tracker",
+          "Home Delivery",
+          "Sells Medicines",
+          "Sexual Tests",
+          "Tailored Meals",
+          "Beauty Tips and Wellness"
+        ]
+      },
+      {
+        "name": "Quickwell",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/188603-5333c9674f46a0747a60a2f1b02e9bbc-thumb_jpg.jpg?buster=1364452951",
+        "services_available" : [
+          "Real Time Suggestions",
+          "Book Appointments",
+          "Online Prescription",
+          "Specialist",
+          "Q & A"
+        ],
+        "services_not_available" : [
+          "Risk Analysis and Report",
+          "CRM",
+          "Fitness Tracker",
+          "Coaches",
+          "Meal Tracker",
+          "Home Delivery",
+          "Sells Medicines",
+          "Sexual Tests",
+          "Tailored Meals",
+          "Beauty Tips and Wellness"
+        ]
+      },
+      {
+        "name": "Docengage",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/144063-aca69fb90e8a343412414959f4a581ac-thumb_jpg.jpg?buster=1422592528",
+        "services_available" : [
+          "Real Time Suggestions",
+          "Book Appointments",
+          "Online Prescription",
+          "Specialist",
+          "Q & A",
+          "CRM"
+        ],
+        "services_not_available" : [
+          "Risk Analysis and Report",
+          "Fitness Tracker",
+          "Coaches",
+          "Meal Tracker",
+          "Home Delivery",
+          "Sells Medicines",
+          "Sexual Tests",
+          "Tailored Meals",
+          "Beauty Tips and Wellness"
+        ]
+      },
+      {
+        "name": "Healthifyme",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/205988-ba3538ef1d41ffdd714c04064cabe72f-thumb_jpg.jpg?buster=1417528353",
+        "services_available" : [
+          "Real Time Suggestions",
+          "Fitness Tracker",
+          "Coaches",
+          "Meal Tracker",
+          "Specialist",
+          "Q & A"
+        ],
+        "services_not_available" : [
+          "Risk Analysis and Report",
+          "Book Appointments",
+          "Online Prescription",
+          "CRM",
+          "Home Delivery",
+          "Sells Medicines",
+          "Sexual Tests",
+          "Tailored Meals",
+          "Beauty Tips and Wellness"
+        ]
+      },
+      {
+        "name": "Dataphi Labs",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/888428-20b2d0923d93e604c60663c4c73ab4a6-thumb_jpg.jpg?buster=1445762496",
+        "services_available" : [
+          "Fitness Tracker",
+          "Coaches",
+          "Meal Tracker",
+          "Risk Analysis and Report"
+        ],
+        "services_not_available" : [
+          "Specialist",
+          "Real Time Suggestions",
+          "Book Appointments",
+          "Online Prescription",
+          "Q & A",
+          "CRM",
+          "Home Delivery",
+          "Sexual Tests",
+          "Sells Medicines",
+          "Tailored Meals",
+          "Beauty Tips and Wellness"
+        ]
+      },
+      {
+        "name": "SmartRx",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/93469-f7702fc42423fc9673cd041a37e8c66f-thumb_jpg.jpg?buster=1338229978",
+        "services_available" : [
+          "Risk Analysis and Report",
+          "Real Time Suggestions",
+          "Online Prescription",
+          "CRM"
+        ],
+        "services_not_available" : [
+          "Specialist",
+          "Book Appointments",
+          "Q & A",
+          "Fitness Tracker",
+          "Coaches",
+          "Meal Tracker",
+          "Home Delivery",
+          "Sells Medicines",
+          "Sexual Tests",
+          "Tailored Meals",
+          "Beauty Tips and Wellness"
+        ]
+      },
+      {
+        "name": "Omnify",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/299702-895dcd14577628c8ea3eeec6931dbd32-medium_jpg.jpg?buster=1470383942",
+        "services_available" : [
+          "Real Time Suggestions",
+          "Online Prescription",
+          "CRM",
+          "Fitness Tracker",
+          "Coaches",
+          "Book Appointments"
+        ],
+        "services_not_available" : [
+          "Risk Analysis and Report",
+          "Meal Tracker",
+          "Specialist",
+          "Q & A",
+          "Home Delivery",
+          "Sells Medicines",
+          "Sexual Tests",
+          "Tailored Meals",
+          "Beauty Tips and Wellness"
+        ]
+      },
+      {
+        "name": "DataDab",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/508645-541f2b1764d613eb5a2528399e916633-thumb_jpg.jpg?buster=1413062792",
+        "services_available" : [
+          "CRM",
+          "Fitness Tracker",
+          "Coaches",
+          "Risk Analysis and Report"
+        ],
+        "services_not_available" : [
+          "Real Time Suggestions",
+          "Online Prescription",
+          "Book Appointments",
+          "Meal Tracker",
+          "Specialist",
+          "Q & A",
+          "Home Delivery",
+          "Sells Medicines",
+          "Sexual Tests",
+          "Tailored Meals",
+          "Beauty Tips and Wellness"
+        ]
+      },
+      {
+        "name": "Fitmonk",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/818389-998cc3dd49cb904a19a7b00725f466d3-medium_jpg.jpg?buster=1450984475",
+        "services_available" : [
+          "CRM",
+          "Fitness Tracker",
+          "Coaches",
+          "Real Time Suggestions",
+          "Online Prescription",
+          "Book Appointments",
+          "Meal Tracker"
+        ],
+        "services_not_available" : [
+          "Risk Analysis and Report",
+          "Specialist",
+          "Q & A",
+          "Home Delivery",
+          "Sells Medicines",
+          "Sexual Tests",
+          "Tailored Meals",
+          "Beauty Tips and Wellness"
+        ]
+      },
+      {
+        "name": "Myra Medicines",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/832052-c42314bc022be80d285cdc2190fdb462-thumb_jpg.jpg?buster=1441887072",
+        "services_available" : [
+          "Real Time Suggestions",
+          "Online Prescription",
+          "Book Appointments",
+          "Home Delivery",
+          "Sells Medicines"
+        ],
+        "services_not_available" : [
+          "Meal Tracker",
+          "CRM",
+          "Fitness Tracker",
+          "Coaches",
+          "Risk Analysis and Report",
+          "Specialist",
+          "Q & A",
+          "Sexual Tests",
+          "Tailored Meals",
+          "Beauty Tips and Wellness"
+        ]
+      },
+      {
+        "name": "Cupid Care",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/866357-c82641d7113660ecc9e8119fecd2c86f-medium_jpg.jpg?buster=1444194993",
+        "services_available" : [
+          "Real Time Suggestions",
+          "Online Prescription",
+          "Book Appointments",
+          "Home Delivery",
+          "Sells Medicines",
+          "Sexual Tests"
+        ],
+        "services_not_available" : [
+          "Meal Tracker",
+          "CRM",
+          "Fitness Tracker",
+          "Coaches",
+          "Risk Analysis and Report",
+          "Specialist",
+          "Q & A",
+          "Tailored Meals",
+          "Beauty Tips and Wellness"
+        ]
+      },
+      {
+        "name": "Fitgo",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/856789-76705f128843d739eab7fada64824900-medium_jpg.jpg?buster=1451322635",
+        "services_available" : [
+          "Real Time Suggestions",
+          "Home Delivery",
+          "Meal Tracker",
+          "Tailored Meals"
+        ],
+        "services_not_available" : [
+          "CRM",
+          "Fitness Tracker",
+          "Sells Medicines",
+          "Online Prescription",
+          "Book Appointments",
+          "Coaches",
+          "Risk Analysis and Report",
+          "Specialist",
+          "Q & A",
+          "Sexual Tests",
+          "Beauty Tips and Wellness"
+        ]
+      },
+      {
+        "name": "Glopink",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/1215850-ffee81a19aff305af85ecc5069bd5878-thumb_jpg.jpg?buster=1466666460",
+        "services_available" : [
+          "Real Time Suggestions",
+          "Q & A",
+          "Beauty Tips and Wellness"
+        ],
+        "services_not_available" : [
+          "CRM",
+          "Fitness Tracker",
+          "Sells Medicines",
+          "Online Prescription",
+          "Book Appointments",
+          "Coaches",
+          "Risk Analysis and Report",
+          "Specialist",
+          "Sexual Tests",
+          "Home Delivery",
+          "Meal Tracker",
+          "Tailored Meals"
+        ]
+      },
+      {
+        "name": "Fitbit",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/32178-413a38df0f247a7ea23358d80d764a25-thumb_jpg.jpg?buster=1361407886",
+        "services_available" : [
+          "Real Time Suggestions",
+          "Q & A",
+          "Fitness Tracker",
+          "Meal Tracker"
+        ],
+        "services_not_available" : [
+          "CRM",
+          "Sells Medicines",
+          "Online Prescription",
+          "Book Appointments",
+          "Coaches",
+          "Risk Analysis and Report",
+          "Specialist",
+          "Sexual Tests",
+          "Home Delivery",
+          "Tailored Meals",
+          "Beauty Tips and Wellness"
+        ]
+      },
+      {
+        "name": "Practo",
+        "pic_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/457188-7ba95fe6a8c0e768cb0273b4327e2839-thumb_jpg.jpg?buster=1449657480",
+        "services_available" : [
+          "Online Prescription",
+          "Book Appointments"
+        ],
+        "services_not_available" : [
+          "Real Time Suggestions",
+          "Q & A",
+          "Fitness Tracker",
+          "Meal Tracker",
+          "CRM",
+          "Sells Medicines",
+          "Coaches",
+          "Risk Analysis and Report",
+          "Specialist",
+          "Sexual Tests",
+          "Home Delivery",
+          "Tailored Meals",
+          "Beauty Tips and Wellness"
+        ]
+      }
+    ]
+  }
+]
