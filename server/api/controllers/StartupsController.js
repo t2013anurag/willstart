@@ -57,7 +57,7 @@ module.exports = {
 				  if (err) throw err;
 					results = results[0]
 					var recommended = results.slice(1);
-					recommended = results.slice(recommended.length-1)
+					recommended = results.slice(recommended.length-1, recommended.length)
 					var reply = {
 						'status': 1,
 						'results': recommended.split(',')
