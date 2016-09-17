@@ -1,13 +1,13 @@
 import sys
 import nltk, string
 from sklearn.feature_extraction.text import TfidfVectorizer
-
+print("vkfrnvkf")
 arg1 = ["online booking",
         "app",
         "home delivery",
         "menu handpicking",
         "meal categorization",
-        "provides coupons",        
+        "provides coupons",
         "restaurant options",
         "sells raw food",
         "cultural cuisine",
@@ -46,7 +46,7 @@ def run_for_all_inputs(arg1, arg2):
 	for item in arg2:
 		for inp in arg1:
 			result = cosine_sim(item, inp)
-			print result
+			# print result
 			if result > 0:
 				count = 1
 				dictionary[item] = 1
@@ -56,6 +56,7 @@ def run_for_all_inputs(arg1, arg2):
 	for key, value in dictionary.iteritems():
 		if value != 1:
 			recommended.append(key)
-	print recommended
+	print(recommended)
+    sys.stdout.flush()
 
 run_for_all_inputs(arg1, arg2)
