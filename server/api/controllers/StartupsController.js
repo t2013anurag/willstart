@@ -58,7 +58,11 @@ module.exports = {
 				};
 				PythonShell.run('../python/main.py', options, function (err, results) {
 				  if (err) throw err;
-				  console.log('results: %j', results);
+					var reply = {
+						'status': 1,
+						'results': results
+					}
+					res.status(200).json(reply)
 				});
 			}
 		})
