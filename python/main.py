@@ -1,7 +1,7 @@
 import sys
 import nltk, string
 from sklearn.feature_extraction.text import TfidfVectorizer
-print("vkfrnvkf")
+
 arg1 = ["online booking",
         "app",
         "home delivery",
