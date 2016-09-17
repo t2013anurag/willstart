@@ -60,7 +60,7 @@ module.exports = {
 					recommended = results.slice(1, recommended.length-1)
 					var reply = {
 						'status': 1,
-						'results': recommended
+						'results': recommended.split(',')
 					}
 					res.status(200).json(reply)
 				});
