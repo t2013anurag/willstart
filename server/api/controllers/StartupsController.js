@@ -55,12 +55,12 @@ module.exports = {
 				};
 				PythonShell.run('../python/main.py', options, function (err, results) {
 				  if (err) throw err;
-					results = results[0]
-					var recommended = results.slice(1);
-					recommended = results.slice(0, recommended.length-1)
+					results = results[0];
+					var recommended = results.slice(0);
+					recommended = results.slice(1, recommended.length-1)
 					var reply = {
 						'status': 1,
-						'results': recommended.split(',')
+						'results': recommended
 					}
 					res.status(200).json(reply)
 				});
