@@ -2,7 +2,8 @@ import sys
 import nltk, string
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-arg1 = ["online booking",
+arg1 = []
+arg_1 = ["online booking",
         "app",
         "home delivery",
         "menu handpicking",
@@ -20,6 +21,29 @@ arg1 = ["online booking",
         "provide nutrition content",
         "gift dining",
         "night deliveries"]
+
+arg_2 = [ "Online Prescription",
+          "Specialist",
+          "Real Time Suggestions",
+          "Q & A",
+	      "Risk Analysis and Report",
+	      "Book Appointments",
+	      "CRM",
+	      "Fitness Tracker",
+	      "Coaches",
+	      "Meal Tracker",
+	      "Home Delivery",
+	      "Sells Medicines",
+	      "Sexual Tests",
+	      "Tailored Meals",
+	      "Beauty Tips and Wellness"
+		]
+
+market = sys.argv[3]
+if market == "food":
+	arg1 = arg_1
+else:
+	arg1 = arg_2
 
 temp = sys.argv[2]
 arg2 = temp.split(",")
