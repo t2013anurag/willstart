@@ -3,41 +3,41 @@ import nltk, string
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 arg1 = []
-arg_1 = [	"online booking",
-         	"app",
-         	"home delivery",
-         	"menu handpicking",
-          	"meal categorization",
-          	"provides coupons",
-          	"restaurant options",
-          	"sells raw food",
-          	"cultural cuisine",
-          	"juice only",
-          	"sells booze",
-          	"sells fast food",
-          	"sells chocolates",
-          	"analytics platform",
-          	"tailored meals",
-          	"provide nutrition content",
-          	"gift dining",
-          	"night deliveries"]
 
-arg_2 = [ 	"Online Prescription",
-          	"Specialist",
-          	"Real Time Suggestions",
-          	"Q & A",
-	      	"Risk Analysis and Report",
-	      	"Book Appointments",
-	      	"CRM",
-	      	"Fitness Tracker",
-	      	"Coaches",
-	      	"Meal Tracker",
-	      	"Home Delivery",
-	      	"Sells Medicines",
-	      	"Sexual Tests",
-	      	"Tailored Meals",
-	      	"Beauty Tips and Wellness"
-		]
+arg_1 = ["online booking",
+     	"app",
+     	"home delivery",
+     	"menu handpicking",
+      	"meal categorization",
+      	"provides coupons",
+      	"restaurant options",
+      	"sells raw food",
+      	"cultural cuisine",
+      	"juice only",
+      	"sells booze",
+      	"sells fast food",
+      	"sells chocolates",
+      	"analytics platform",
+      	"tailored meals",
+      	"provide nutrition content",
+      	"gift dining",
+      	"night deliveries"]
+
+arg_2 = ["Online Prescription",
+      	"Specialist",
+      	"Real Time Suggestions",
+      	"Q & A",
+      	"Risk Analysis and Report",
+      	"Book Appointments",
+      	"CRM",
+      	"Fitness Tracker",
+      	"Coaches",
+      	"Meal Tracker",
+      	"Home Delivery",
+      	"Sells Medicines",
+      	"Sexual Tests",
+      	"Tailored Meals",
+      	"Beauty Tips and Wellness"]
 
 market = sys.argv[3]
 if market == "food":
@@ -75,7 +75,7 @@ def run_for_all_inputs(arg1, arg2):
 
 	for item in arg2:
 		for inp in arg1:
-			result = cosine_sim(item, inp)
+			result = cosine_sim(item, inp.lower())
 			if result > 0:
 				count = 1
 				dictionary[item] = 1
