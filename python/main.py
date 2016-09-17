@@ -57,6 +57,6 @@ def run_for_all_inputs(arg1, arg2):
 		if value != 1:
 			recommended.append(key)
 	print(recommended)
-    sys.stdout.flush()
+sys.stdout.flush()
 
 run_for_all_inputs(arg1, arg2)
