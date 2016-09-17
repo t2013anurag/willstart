@@ -40,7 +40,7 @@ module.exports = {
 		var add_features = req.param('services');
 		var market = req.param('market');
 
-		var f = ["Online Booking"]
+		var f = ["online booking", "delisevery"]
 
 		var PythonShell = require('python-shell');
 
