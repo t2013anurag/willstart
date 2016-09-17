@@ -56,8 +56,8 @@ module.exports = {
 				PythonShell.run('../python/main.py', options, function (err, results) {
 				  if (err) throw err;
 					results = results[0]
-					var recommended = results.splice(1);
-					recommended = results.splice(recommended.length-1)
+					var recommended = results.slice(1);
+					recommended = results.slice(recommended.length-1)
 					var reply = {
 						'status': 1,
 						'results': recommended.split(',')
