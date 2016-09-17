@@ -21,7 +21,9 @@ arg1 = ["online booking",
         "gift dining",
         "night deliveries"]
 
-arg2 = ["nd", "cd"]
+temp = sys.argv[2]
+arg2 = temp.split(",")
+# print arg2
 
 stemmer = nltk.stem.porter.PorterStemmer()
 remove_punctuation_map = dict((ord(char), None) for char in string.punctuation)
@@ -43,6 +45,10 @@ def run_for_all_inputs(arg1, arg2):
 	recommended = []
 	count = 0
 	result = 0
+
+	for key, value in dictionary.iteritems():
+		dictionary[key] = 0
+
 	for item in arg2:
 		for inp in arg1:
 			result = cosine_sim(item, inp)
@@ -50,13 +56,16 @@ def run_for_all_inputs(arg1, arg2):
 			if result > 0:
 				count = 1
 				dictionary[item] = 1
-			else:
-				dictionary[item] = 0
+			# else:
+			# 	dictionary[item] = 0
 				# print dictionary
+	# print dictionary
 	for key, value in dictionary.iteritems():
-		if value != 1:
+		# print key
+		if value == 1:
+			# print key
 			recommended.append(key)
-	print(recommended)
+	print list(set(arg2) - set(recommended))
 sys.stdout.flush()
 
 run_for_all_inputs(arg1, arg2)
