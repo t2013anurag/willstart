@@ -61,7 +61,7 @@ module.exports = {
 					recommended = results.replace(/'/g, '');
 					var reply = {
 						'status': 1,
-						'results': recommended
+						'results': recommended.split(',')
 					}
 					res.status(200).json(reply)
 				});
