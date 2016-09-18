@@ -70,7 +70,7 @@ module.exports = {
 
 	'score': function(req, res){
 		var market = req.param('market');
-		console.log(market);
+		// console.log(market);
 		Markets.find({'category': market}).exec(function foundMarket(err, markets){
 			if(err || !markets){
 				var reply = {
@@ -122,6 +122,8 @@ module.exports = {
 				      	"Beauty Tips and Wellness": 0}
 				}
 
+				all_items = []
+
 				_.each(company, function(companies) {
 					k = companies["services_available"]
 					_.each(k, function(item){
@@ -129,6 +131,10 @@ module.exports = {
 					})					
 				})
 				
+				for(var i in map) {
+					all_items.push(i)
+				}
+
 				var sum = 0, count = 0
 				
 				for(var i in map) {
@@ -144,12 +150,27 @@ module.exports = {
 					if(map[i] <= min_threshold)
 						recommendations.push(i)
 				}
-
+				var l = recommendations.length
+				var rem_items = []
+				rem_items = _.difference(all_items, recommendations)
+				var alpha = Math.random()*(all_items.length - min_threshold) + min_threshold;				
+				for(var i in map){
+					if(map[i] > alpha)
+						recommendations.push(i)
+				}
+				var currentIndex = recommendations.length, temporaryValue, randomIndex;
+				while (0 !== currentIndex) {
+					randomIndex = Math.floor(Math.random() * currentIndex);
+				    currentIndex -= 1;
+				    temporaryValue = recommendations[currentIndex];
+				    recommendations[currentIndex] = recommendations[randomIndex];
+				    recommendations[randomIndex] = temporaryValue;
+				  }
 				var reply = {
 					'status' : 108,
 					'result' : recommendations
 				}
-				console.log(reply)
+				// console.log(reply)
 				res.status(200).json(reply)
 			}
 		})
