@@ -50,6 +50,7 @@ module.exports = {
 				res.status(200).json(reply)
 			}
 			else{
+				console.log(add_features);
 				var options = {
 				  args: [market[0].companies, add_features, market]
 				};
@@ -80,14 +81,28 @@ module.exports = {
 					"accessTokenSecret": "y0bz4zxZBlZzTSmM1qhCvM7DmyaSzBOQueMs5O9Qibhp1"
 			}
 			var twitter = new Twitter(config);
-			var badTweetCount = [], index = 0, sum = 0, mean = 0, companiesWithPoorReviews = 0, suckingComs = 0;
+			var badTweetCount = [], index = 0, sum = 0, mean = 0, companiesWithPoorReviews = 0, suckingComs = 0, respSent = 0, arr = [];
 
 			_.each(companies, function(company){
 				var name = company.name;
 				name = name.toLowerCase();
 				var nameWithoutSpaces = name.replace(/ /g, '');
 				twitter.getSearch({'q':''+ name +' OR '+ nameWithoutSpaces +' :(','count': '1000'}, function(err){
-					console.log(err);
+					//console.log(err);
+					index++;
+					console.log(index);
+					if(index >= companies.length){
+						arr.push(results[0])
+						var reply = {
+							'status' : 1,
+							'message' : 'Success',
+							'results': arr,
+							'mean': "0",
+							'poorPercentage': "0",
+							"successRate": results[1]
+						}
+						res.status(200).json(reply);
+					}
 				}, function(resp){
 					var tweets = JSON.parse(resp);
 					tweets = tweets.statuses;
@@ -113,12 +128,14 @@ module.exports = {
 						mean = mean.toFixed(2);
 						suckingComs = suckingComs*100;
 						suckingComs = suckingComs.toFixed(2);
+						arr.push(results[0])
 						var reply = {
 							'status' : 1,
-							'message' : 'An error occured',
-							'results': results,
+							'message' : 'Success',
+							'results': arr,
 							'mean': mean,
-							'poorPercentage': suckingComs
+							'poorPercentage': suckingComs,
+							"successRate": results[1]
 						}
 						res.status(200).json(reply);
 					}
@@ -216,7 +233,7 @@ module.exports = {
 				var l = recommendations.length
 				var rem_items = []
 				rem_items = _.difference(all_items, recommendations)
-				var alpha = Math.random()*(all_items.length - min_threshold) + min_threshold;				
+				var alpha = Math.random()*(all_items.length - min_threshold) + min_threshold;
 				for(var i in map){
 					if(map[i] > alpha)
 						recommendations.push(i)
