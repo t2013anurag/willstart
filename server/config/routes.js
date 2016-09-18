@@ -36,7 +36,8 @@ module.exports.routes = {
     view: 'homepage'
   },
   '/startups/:market': 'StartupsController.index',
-  '/startups/features/:market': 'StartupsController.features'
+  '/startups/features/:market': 'StartupsController.features',
+  '/startups/score/:market' : 'StartupsController.score'
 
   /***************************************************************************
   *                                                                          *
