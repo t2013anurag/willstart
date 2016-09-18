@@ -88,8 +88,9 @@ module.exports = {
 				name = name.toLowerCase();
 				var nameWithoutSpaces = name.replace(/ /g, '');
 				twitter.getSearch({'q':''+ name +' OR '+ nameWithoutSpaces +' :(','count': '1000'}, function(err){
-					console.log(err);
+					//console.log(err);
 					index++;
+					console.log(index);
 					if(index >= companies.length){
 						var reply = {
 							'status' : 1,
