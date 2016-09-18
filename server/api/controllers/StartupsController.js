@@ -125,12 +125,15 @@ module.exports = {
 				});
 			})
 			// console.log(results)
-			
+
 		}
 	},
 
 	'score': function(req, res){
 		var market = req.param('market');
+		var user_features = JSON.parse(req.param('services'));
+
+		console.log(user_features)
 		// console.log(market);
 		Markets.find({'category': market}).exec(function foundMarket(err, markets){
 			if(err || !markets){
@@ -226,9 +229,14 @@ module.exports = {
 				    recommendations[currentIndex] = recommendations[randomIndex];
 				    recommendations[randomIndex] = temporaryValue;
 				  }
+				p1 = []
+				p1 = _.difference(recommendations, user_features)
+				// console.log(recommendations)
+				// console.log(user_features)
+				// console.log(p1)
 				var reply = {
 					'status' : 108,
-					'result' : recommendations
+					'result' : p1
 				}
 				// console.log(reply)
 				res.status(200).json(reply)
