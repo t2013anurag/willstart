@@ -50,6 +50,7 @@ module.exports = {
 				res.status(200).json(reply)
 			}
 			else{
+				console.log(add_features);
 				var options = {
 				  args: [market[0].companies, add_features, market]
 				};
