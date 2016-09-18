@@ -107,7 +107,7 @@ module.exports = {
 						suckingComs = suckingComs.toFixed(2);
 						var reply = {
 							'status' : 1,
-							'message' : 'An error occured',
+							'message' : 'Success',
 							'results': results,
 							'mean': mean,
 							'poorPercentage': suckingComs
