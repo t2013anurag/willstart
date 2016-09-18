@@ -92,7 +92,7 @@ module.exports = {
 					var reply = {
 						'status' : 1,
 						'message' : 'Success',
-						'results': results,
+						'results': results[0],
 						'mean': "0",
 						'poorPercentage': "0",
 						"successRate": results[1]
@@ -126,7 +126,7 @@ module.exports = {
 						var reply = {
 							'status' : 1,
 							'message' : 'Success',
-							'results': results,
+							'results': results[0],
 							'mean': mean,
 							'poorPercentage': suckingComs,
 							"successRate": results[1]
