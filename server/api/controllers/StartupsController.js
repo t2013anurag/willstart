@@ -81,7 +81,7 @@ module.exports = {
 					"accessTokenSecret": "y0bz4zxZBlZzTSmM1qhCvM7DmyaSzBOQueMs5O9Qibhp1"
 			}
 			var twitter = new Twitter(config);
-			var badTweetCount = [], index = 0, sum = 0, mean = 0, companiesWithPoorReviews = 0, suckingComs = 0, respSent = 0;
+			var badTweetCount = [], index = 0, sum = 0, mean = 0, companiesWithPoorReviews = 0, suckingComs = 0, respSent = 0, arr = [];
 
 			_.each(companies, function(company){
 				var name = company.name;
@@ -92,10 +92,11 @@ module.exports = {
 					index++;
 					console.log(index);
 					if(index >= companies.length){
+						arr.push(results[0])
 						var reply = {
 							'status' : 1,
 							'message' : 'Success',
-							'results': results[0],
+							'results': arr,
 							'mean': "0",
 							'poorPercentage': "0",
 							"successRate": results[1]
@@ -127,10 +128,11 @@ module.exports = {
 						mean = mean.toFixed(2);
 						suckingComs = suckingComs*100;
 						suckingComs = suckingComs.toFixed(2);
+						arr.push(results[0])
 						var reply = {
 							'status' : 1,
 							'message' : 'Success',
-							'results': results[0],
+							'results': arr,
 							'mean': mean,
 							'poorPercentage': suckingComs,
 							"successRate": results[1]
