@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/input_bg">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/check"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/phrase"
+        android:padding="10dp"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/white"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:hint="Enter phrase"
+        android:background="@null"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>

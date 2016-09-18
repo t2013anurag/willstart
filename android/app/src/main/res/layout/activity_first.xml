@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_first"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimary"
+
+    tools:context="com.prince.android.willstart.Entity.Activities.FirstActivity">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:id="@+id/keyword"
+        android:transitionName="transitionShow"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:hint="@string/keyword_label"
+        android:inputType="textNoSuggestions"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_height="wrap_content"
+
+        />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/ic_chevron_right_black_24dp"
+        android:id="@+id/imageButton"
+        android:onClick="onClick"
+        />
+
+</LinearLayout>

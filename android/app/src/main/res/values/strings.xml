@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WillStart</string>
+    <string name="search_hint" />
+    <string name="keywordHint">Keyword</string>
+
+    <string name="menu_search">Search</string>
+    <string name="search_result">Result</string>
+    <string name="keyword_label">keyword</string>
+</resources>
