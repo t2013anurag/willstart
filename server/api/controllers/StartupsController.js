@@ -81,7 +81,7 @@ module.exports = {
 					"accessTokenSecret": "y0bz4zxZBlZzTSmM1qhCvM7DmyaSzBOQueMs5O9Qibhp1"
 			}
 			var twitter = new Twitter(config);
-			var badTweetCount = [], index = 0, sum = 0, mean = 0, companiesWithPoorReviews = 0, suckingComs = 0;
+			var badTweetCount = [], index = 0, sum = 0, mean = 0, companiesWithPoorReviews = 0, suckingComs = 0, respSent = 0;
 
 			_.each(companies, function(company){
 				var name = company.name;
@@ -89,15 +89,18 @@ module.exports = {
 				var nameWithoutSpaces = name.replace(/ /g, '');
 				twitter.getSearch({'q':''+ name +' OR '+ nameWithoutSpaces +' :(','count': '1000'}, function(err){
 					console.log(err);
-					var reply = {
-						'status' : 1,
-						'message' : 'Success',
-						'results': results[0],
-						'mean': "0",
-						'poorPercentage': "0",
-						"successRate": results[1]
+					index++;
+					if(index >= companies.length){
+						var reply = {
+							'status' : 1,
+							'message' : 'Success',
+							'results': results[0],
+							'mean': "0",
+							'poorPercentage': "0",
+							"successRate": results[1]
+						}
+						res.status(200).json(reply);
 					}
-					res.status(200).json(reply);
 				}, function(resp){
 					var tweets = JSON.parse(resp);
 					tweets = tweets.statuses;
