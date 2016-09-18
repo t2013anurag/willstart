@@ -50,21 +50,20 @@ module.exports = {
 				res.status(200).json(reply)
 			}
 			else{
-				getTweets(market[0].companies)
-				// var options = {
-				//   args: [market[0].companies, add_features, market]
-				// };
-				// PythonShell.run('../python/main.py', options, function (err, results) {
-				//   if (err) throw err;
-				// 	results = results[0];
-				// 	var recommended = results.slice(0);
-				// 	recommended = results.slice(1, recommended.length-1)
-				// 	var reply = {
-				// 		'status': 1,
-				// 		'results': recommended
-				// 	}
-				// 	res.status(200).json(reply)
-				// });
+				var options = {
+				  args: [market[0].companies, add_features, market]
+				};
+				PythonShell.run('../python/main.py', options, function (err, results) {
+				  if (err) throw err;
+					results = results[0];
+					var recommended = results.slice(0);
+					recommended = results.slice(1, recommended.length-1)
+					// var reply = {
+					// 	'status': 1,
+					// 	'results': recommended
+					// }
+					getTweets(market[0].companies, results)
+				});
 			}
 		})
 
@@ -106,8 +105,18 @@ module.exports = {
 					if(index >= companies.length){
 						mean = sum/companiesWithPoorReviews;
 						suckingComs = companiesWithPoorReviews/companies.length;
-						console.log(mean);
-						console.log(suckingComs);
+						mean = mean*100;
+						mean = mean.toFixed(2);
+						suckingComs = suckingComs*100;
+						suckingComs = suckingComs.toFixed(2);
+						var reply = {
+							'status' : 1,
+							'message' : 'An error occured',
+							'results': results,
+							'mean': mean,
+							'poorPercentage': suckingComs
+						}
+						res.status(200).json(reply);
 					}
 				});
 			})
