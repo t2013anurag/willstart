@@ -55,9 +55,10 @@ module.exports = {
 				};
 				PythonShell.run('../python/main.py', options, function (err, results) {
 				  if (err) throw err;
-					results = results[0];
-					var recommended = results.slice(0);
-					recommended = results.slice(1, recommended.length-1)
+					// results = results[0];
+					// var recommended = results.slice(0);
+					// recommended = results.slice(1, recommended.length-1)
+
 					getTweets(market[0].companies, results)
 				});
 			}
@@ -65,11 +66,18 @@ module.exports = {
 
 		function getTweets(companies, results){
 			var Twitter = require('twitter-node-client').Twitter;
+			// var config = {
+			// 		"consumerKey": "fmBYOhNym9vyQFMJnPdrhFDZn",
+			// 		"consumerSecret": "QLV3AGB1PFEhP3xVYcg8DUvwlLanGtnc6odpU0Yx7kgFJLAFfe",
+			// 		"accessToken": "2485459615-7UGNexY55OjxLOnrPvmsBl4gYOx9P5Yf5UoRwj4",
+			// 		"accessTokenSecret": "igEDdbxBpluYvFxRoe71GOyTP2db5aEHeT8XbiRL1OC3I"
+			// }
+
 			var config = {
-					"consumerKey": "fmBYOhNym9vyQFMJnPdrhFDZn",
-					"consumerSecret": "QLV3AGB1PFEhP3xVYcg8DUvwlLanGtnc6odpU0Yx7kgFJLAFfe",
-					"accessToken": "2485459615-7UGNexY55OjxLOnrPvmsBl4gYOx9P5Yf5UoRwj4",
-					"accessTokenSecret": "igEDdbxBpluYvFxRoe71GOyTP2db5aEHeT8XbiRL1OC3I"
+					"consumerKey": "CgfxMqnwY09eUQrw2BiZs8DD2",
+					"consumerSecret": "8bJuonc26RUnwTYK03JDGURIUoTqnZSkXTssPbI7bIbJTCOXYT",
+					"accessToken": "2336943036-MFCe46P79Hxh84u1dVLZoJvMk4IyNbVKSVx53I2",
+					"accessTokenSecret": "y0bz4zxZBlZzTSmM1qhCvM7DmyaSzBOQueMs5O9Qibhp1"
 			}
 			var twitter = new Twitter(config);
 			var badTweetCount = [], index = 0, sum = 0, mean = 0, companiesWithPoorReviews = 0, suckingComs = 0;
@@ -116,12 +124,14 @@ module.exports = {
 					}
 				});
 			})
+			// console.log(results)
+			
 		}
 	},
 
 	'score': function(req, res){
 		var market = req.param('market');
-		console.log(market);
+		// console.log(market);
 		Markets.find({'category': market}).exec(function foundMarket(err, markets){
 			if(err || !markets){
 				var reply = {
@@ -173,6 +183,8 @@ module.exports = {
 				      	"Beauty Tips and Wellness": 0}
 				}
 
+				all_items = []
+
 				_.each(company, function(companies) {
 					k = companies["services_available"]
 					_.each(k, function(item){
@@ -180,6 +192,9 @@ module.exports = {
 					})
 				})
 
+				for(var i in map) {
+					all_items.push(i)
+				}
 				var sum = 0, count = 0
 
 				for(var i in map) {
@@ -195,12 +210,27 @@ module.exports = {
 					if(map[i] <= min_threshold)
 						recommendations.push(i)
 				}
-
+				var l = recommendations.length
+				var rem_items = []
+				rem_items = _.difference(all_items, recommendations)
+				var alpha = Math.random()*(all_items.length - min_threshold) + min_threshold;				
+				for(var i in map){
+					if(map[i] > alpha)
+						recommendations.push(i)
+				}
+				var currentIndex = recommendations.length, temporaryValue, randomIndex;
+				while (0 !== currentIndex) {
+					randomIndex = Math.floor(Math.random() * currentIndex);
+				    currentIndex -= 1;
+				    temporaryValue = recommendations[currentIndex];
+				    recommendations[currentIndex] = recommendations[randomIndex];
+				    recommendations[randomIndex] = temporaryValue;
+				  }
 				var reply = {
 					'status' : 108,
 					'result' : recommendations
 				}
-				console.log(reply)
+				// console.log(reply)
 				res.status(200).json(reply)
 			}
 		})

@@ -47,6 +47,7 @@ else:
 
 temp = sys.argv[2]
 arg2 = temp.split(",")
+# print arg2
 
 stemmer = nltk.stem.porter.PorterStemmer()
 remove_punctuation_map = dict((ord(char), None) for char in string.punctuation)
@@ -85,6 +86,13 @@ def run_for_all_inputs(arg1, arg2):
 			recommended.append(key)
 	
 	print list(set(arg2) - set(recommended))
+	score = list(set(arg2) - set(recommended))
+	# print score
+
+	l = len(score)
+	p = len(arg1)
+	q = l/float(p)
+	print round(q,4)*100
 sys.stdout.flush()
 
 run_for_all_inputs(arg1, arg2)
