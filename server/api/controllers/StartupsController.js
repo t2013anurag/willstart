@@ -67,7 +67,7 @@ module.exports = {
 			}
 		})
 
-		function getTweets(companies){
+		function getTweets(companies, results){
 			var Twitter = require('twitter-node-client').Twitter;
 			var config = {
 					"consumerKey": "fmBYOhNym9vyQFMJnPdrhFDZn",
