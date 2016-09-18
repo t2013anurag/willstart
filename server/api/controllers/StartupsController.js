@@ -58,14 +58,65 @@ module.exports = {
 					results = results[0];
 					var recommended = results.slice(0);
 					recommended = results.slice(1, recommended.length-1)
-					var reply = {
-						'status': 1,
-						'results': recommended.split(',')
-					}
-					res.status(200).json(reply)
+					getTweets(market[0].companies, results)
 				});
 			}
 		})
+
+		function getTweets(companies, results){
+			var Twitter = require('twitter-node-client').Twitter;
+			var config = {
+					"consumerKey": "fmBYOhNym9vyQFMJnPdrhFDZn",
+					"consumerSecret": "QLV3AGB1PFEhP3xVYcg8DUvwlLanGtnc6odpU0Yx7kgFJLAFfe",
+					"accessToken": "2485459615-7UGNexY55OjxLOnrPvmsBl4gYOx9P5Yf5UoRwj4",
+					"accessTokenSecret": "igEDdbxBpluYvFxRoe71GOyTP2db5aEHeT8XbiRL1OC3I"
+			}
+			var twitter = new Twitter(config);
+			var badTweetCount = [], index = 0, sum = 0, mean = 0, companiesWithPoorReviews = 0, suckingComs = 0;
+
+			_.each(companies, function(company){
+				var name = company.name;
+				name = name.toLowerCase();
+				var nameWithoutSpaces = name.replace(/ /g, '');
+				twitter.getSearch({'q':''+ name +' OR '+ nameWithoutSpaces +' :(','count': '1000'}, function(err){
+					console.log(err);
+				}, function(resp){
+					var tweets = JSON.parse(resp);
+					tweets = tweets.statuses;
+					if(tweets.length > 0){
+						companiesWithPoorReviews++;
+					}
+					tweets = _.reject(tweets, function(tweet){
+						var retVal = false;
+						var date = new Date(tweet.created_at)
+						if(date.getFullYear() < 2016){
+							retVal = true;
+						}
+						return retVal;
+					})
+					var percent = tweets.length;
+					percent = percent/1000;
+					sum = sum + percent;
+					index++;
+					if(index >= companies.length){
+						mean = sum/companiesWithPoorReviews;
+						suckingComs = companiesWithPoorReviews/companies.length;
+						mean = mean*100;
+						mean = mean.toFixed(2);
+						suckingComs = suckingComs*100;
+						suckingComs = suckingComs.toFixed(2);
+						var reply = {
+							'status' : 1,
+							'message' : 'An error occured',
+							'results': results,
+							'mean': mean,
+							'poorPercentage': suckingComs
+						}
+						res.status(200).json(reply);
+					}
+				});
+			})
+		}
 	},
 
 	'score': function(req, res){
@@ -80,7 +131,7 @@ module.exports = {
 				res.status(200).json(reply);
 			} else {
 				company = markets[0].companies
-				
+
 				var map = {}
 
 				if(market.toString() === "food") {
@@ -128,15 +179,14 @@ module.exports = {
 					k = companies["services_available"]
 					_.each(k, function(item){
 						map[item] += 1
-					})					
+					})
 				})
-				
+
 				for(var i in map) {
 					all_items.push(i)
 				}
-
 				var sum = 0, count = 0
-				
+
 				for(var i in map) {
 					sum += map[i]
 					count  += 1
