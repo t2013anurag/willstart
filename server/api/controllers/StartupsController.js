@@ -58,10 +58,6 @@ module.exports = {
 					results = results[0];
 					var recommended = results.slice(0);
 					recommended = results.slice(1, recommended.length-1)
-					// var reply = {
-					// 	'status': 1,
-					// 	'results': recommended
-					// }
 					getTweets(market[0].companies, results)
 				});
 			}
