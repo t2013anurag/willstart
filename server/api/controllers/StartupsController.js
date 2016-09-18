@@ -55,9 +55,10 @@ module.exports = {
 				};
 				PythonShell.run('../python/main.py', options, function (err, results) {
 				  if (err) throw err;
-					results = results[0];
-					var recommended = results.slice(0);
-					recommended = results.slice(1, recommended.length-1)
+					// results = results[0];
+					// var recommended = results.slice(0);
+					// recommended = results.slice(1, recommended.length-1)
+
 					getTweets(market[0].companies, results)
 				});
 			}
@@ -65,11 +66,18 @@ module.exports = {
 
 		function getTweets(companies, results){
 			var Twitter = require('twitter-node-client').Twitter;
+			// var config = {
+			// 		"consumerKey": "fmBYOhNym9vyQFMJnPdrhFDZn",
+			// 		"consumerSecret": "QLV3AGB1PFEhP3xVYcg8DUvwlLanGtnc6odpU0Yx7kgFJLAFfe",
+			// 		"accessToken": "2485459615-7UGNexY55OjxLOnrPvmsBl4gYOx9P5Yf5UoRwj4",
+			// 		"accessTokenSecret": "igEDdbxBpluYvFxRoe71GOyTP2db5aEHeT8XbiRL1OC3I"
+			// }
+
 			var config = {
-					"consumerKey": "fmBYOhNym9vyQFMJnPdrhFDZn",
-					"consumerSecret": "QLV3AGB1PFEhP3xVYcg8DUvwlLanGtnc6odpU0Yx7kgFJLAFfe",
-					"accessToken": "2485459615-7UGNexY55OjxLOnrPvmsBl4gYOx9P5Yf5UoRwj4",
-					"accessTokenSecret": "igEDdbxBpluYvFxRoe71GOyTP2db5aEHeT8XbiRL1OC3I"
+					"consumerKey": "CgfxMqnwY09eUQrw2BiZs8DD2",
+					"consumerSecret": "8bJuonc26RUnwTYK03JDGURIUoTqnZSkXTssPbI7bIbJTCOXYT",
+					"accessToken": "2336943036-MFCe46P79Hxh84u1dVLZoJvMk4IyNbVKSVx53I2",
+					"accessTokenSecret": "y0bz4zxZBlZzTSmM1qhCvM7DmyaSzBOQueMs5O9Qibhp1"
 			}
 			var twitter = new Twitter(config);
 			var badTweetCount = [], index = 0, sum = 0, mean = 0, companiesWithPoorReviews = 0, suckingComs = 0;
@@ -116,6 +124,8 @@ module.exports = {
 					}
 				});
 			})
+			// console.log(results)
+			
 		}
 	},
 
