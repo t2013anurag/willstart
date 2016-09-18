@@ -118,14 +118,15 @@ module.exports = {
 							'message' : 'Success',
 							'results': results,
 							'mean': mean,
-							'poorPercentage': suckingComs
+							'poorPercentage': suckingComs,
+							"successRate": results[1]
 						}
 						res.status(200).json(reply);
 					}
 				});
 			})
 			// console.log(results)
-			
+
 		}
 	},
 
@@ -213,7 +214,7 @@ module.exports = {
 				var l = recommendations.length
 				var rem_items = []
 				rem_items = _.difference(all_items, recommendations)
-				var alpha = Math.random()*(all_items.length - min_threshold) + min_threshold;				
+				var alpha = Math.random()*(all_items.length - min_threshold) + min_threshold;
 				for(var i in map){
 					if(map[i] > alpha)
 						recommendations.push(i)
