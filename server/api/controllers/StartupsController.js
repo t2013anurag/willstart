@@ -88,6 +88,15 @@ module.exports = {
 				var nameWithoutSpaces = name.replace(/ /g, '');
 				twitter.getSearch({'q':''+ name +' OR '+ nameWithoutSpaces +' :(','count': '1000'}, function(err){
 					console.log(err);
+					var reply = {
+						'status' : 1,
+						'message' : 'Success',
+						'results': results,
+						'mean': "0",
+						'poorPercentage': "0",
+						"successRate": results[1]
+					}
+					res.status(200).json(reply);
 				}, function(resp){
 					var tweets = JSON.parse(resp);
 					tweets = tweets.statuses;
