@@ -102,12 +102,14 @@ module.exports = {
 					var percent = tweets.length;
 					percent = percent/1000;
 					sum = sum + percent;
+					index++;
+					if(index >= companies.length){
+						mean = sum/companiesWithPoorReviews;
+						suckingComs = companiesWithPoorReviews/companies.length;
+						console.log(mean);
+						console.log(suckingComs);
+					}
 				});
-				index++;
-				if(index >= companies.length){
-					mean = sum/companies.length;
-					suckingComs = companiesWithPoorReviews/companies.length;
-				}
 			})
 		}
 	}
